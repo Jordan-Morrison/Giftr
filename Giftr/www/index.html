@@ -24,7 +24,7 @@
         <div id="peopleScreen" class="page active">
             <ul class="list-view">
                 <li class="list-item">
-                    <img src="img/logo.png" alt="happy" class="avatar"/>
+                    <img src="img/logo.png" alt="cordova logo" class="avatar"/>
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
@@ -46,7 +46,20 @@
                 - Way to cancel adding a person and go back to person list page
         -->
         <div id="peopleForm" class="page">
-                
+            <form>
+                <p class="form-row">
+                    <input type="text" id="name" required/>
+                    <label for="name">Name</label>
+                </p>
+                <p class="form-row">
+                    <label for="birthday">Birthday: </label>
+                    <input type="date" id="birthday" required/>
+                </p>
+                <p class="form-row buttons">
+                    <input type="button" id="btn-cancel" class="btn-small" value="cancel"/>
+                    <input type="submit" id="btn-sub" class="btn-small" value="submit"/>
+                </p>
+            </form>
         </div>
 
         <!--
@@ -63,7 +76,14 @@
                 - Way to navigate back to the person list page
         -->
         <div id="giftScreen" class="page">
-                
+            <ul class="list-view">
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar"/>
+                    <span class="action-right icon delete"></span>
+                    <p>Gift Name</p>
+                    <p>Price</p>
+                </li>
+            </ul>
         </div>
 
         <!--
@@ -77,7 +97,28 @@
                 - Way to cancel adding a gift and go back to gift list page
         -->
         <div id="giftForm" class="page">
-            
+            <form>
+                <p class="form-row">
+                    <input type="text" id="giftIdea" required/>
+                    <label for="giftIdea">Gift Idea</label>
+                </p>
+                <p class="form-row">
+                    <input type="number" id="giftPrice" min="0" step="0.01" required/>
+                    <label for="giftPrice">Price</label>
+                </p>
+                <p class="form-row">
+                    <input type="text" id="giftStore" required/>
+                    <label for="giftStore">Store</label>
+                </p>
+                <p class="form-row">
+                    <input type="text" id="giftUrl" required/>
+                    <label for="giftUrl">Gift URL</label>
+                </p>
+                <p class="form-row buttons">
+                    <input type="button" id="btn-cancel" class="btn-small" value="cancel"/>
+                    <input type="submit" id="btn-sub" class="btn-small" value="submit"/>
+                </p>
+            </form>
         </div>
         
         <script type="text/javascript" src="cordova.js"></script>
