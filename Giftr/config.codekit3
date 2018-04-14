@@ -51,22 +51,32 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/merges\/android\/js\/android.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/merges\/android\/js\/android-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/merges\/android\/js\/materialize.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/merges\/android\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/merges\/android\/js\/platform-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/merges\/android\/js\/platform-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/merges\/android\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/merges\/android\/js\/platform-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -601,6 +611,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/merges\/ios\/js\/platform-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/merges\/ios\/js\/platform-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/merges\/ios\/js\/platform.js": {
 		"ft": 64,
 		"ma": 0,
@@ -640,6 +660,153 @@
 		"oAP": "\/platforms\/android\/.gitignore",
 		"oF": 0
 		},
+	"\/platforms\/android\/.gradle\/4.1\/fileChanges\/last-build.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/fileChanges\/last-build.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/fileContent\/fileContent.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/fileContent\/fileContent.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/fileHashes\/fileHashes.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/fileHashes\/fileHashes.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/fileHashes\/fileHashes.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/fileHashes\/fileHashes.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/fileHashes\/resourceHashesCache.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/fileHashes\/resourceHashesCache.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/javaCompile\/classAnalysis.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/javaCompile\/classAnalysis.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/javaCompile\/jarAnalysis.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/javaCompile\/jarAnalysis.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/javaCompile\/javaCompile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/javaCompile\/javaCompile.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/javaCompile\/taskHistory.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/javaCompile\/taskHistory.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/javaCompile\/taskJars.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/javaCompile\/taskJars.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/taskHistory\/fileSnapshots.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/taskHistory\/fileSnapshots.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/taskHistory\/taskHistory.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/taskHistory\/taskHistory.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.1\/taskHistory\/taskHistory.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.1\/taskHistory\/taskHistory.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.6\/fileChanges\/last-build.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.6\/fileChanges\/last-build.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.6\/fileHashes\/fileHashes.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.6\/fileHashes\/fileHashes.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.6\/fileHashes\/fileHashes.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.6\/fileHashes\/fileHashes.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.6\/taskHistory\/taskHistory.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.6\/taskHistory\/taskHistory.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/4.6\/taskHistory\/taskHistory.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/4.6\/taskHistory\/taskHistory.lock",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/buildOutputCleanup\/built.bin": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/buildOutputCleanup\/built.bin",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/buildOutputCleanup\/cache.properties": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/buildOutputCleanup\/cache.properties",
+		"oF": 0
+		},
+	"\/platforms\/android\/.gradle\/buildOutputCleanup\/cache.properties.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/.gradle\/buildOutputCleanup\/cache.properties.lock",
+		"oF": 0
+		},
 	"\/platforms\/android\/android.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -653,6 +820,1506 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build.gradle",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/generated\/source\/buildConfig\/debug\/com\/algonquin\/mad9022\/giftr\/BuildConfig.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/generated\/source\/buildConfig\/debug\/com\/algonquin\/mad9022\/giftr\/BuildConfig.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/generated\/source\/r\/debug\/com\/algonquin\/mad9022\/giftr\/R.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/generated\/source\/r\/debug\/com\/algonquin\/mad9022\/giftr\/R.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/generated\/source\/r\/debug\/org\/apache\/cordova\/R.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/generated\/source\/r\/debug\/org\/apache\/cordova\/R.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/promptbasednativeapi.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/promptbasednativeapi-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova_plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova_plugins-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/tinyshell.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 21814,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/index.html",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/platform-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/platform-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/tinyshell.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_badges.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_badges.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_carousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_carousel.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_chips.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_chips.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_collapsible.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_collapsible.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_color-classes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_color-classes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_color-variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_color-variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_datepicker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_datepicker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_dropdown.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_dropdown.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_icons-material-design.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_icons-material-design.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_materialbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_materialbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_navbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_navbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_preloader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_preloader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_sidenav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_sidenav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_table_of_contents.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_table_of_contents.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tapTarget.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tapTarget.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_timepicker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_timepicker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_toast.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_toast.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tooltip.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_tooltip.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_transitions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_transitions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_waves.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/_waves.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_checkboxes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_checkboxes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_file-input.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_file-input.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_input-fields.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_input-fields.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_radio-buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_radio-buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_range.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_range.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_select.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_switches.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/components\/forms\/_switches.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/materialize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/scss\/materialize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/multi-v2\/debug.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/multi-v2\/debug-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/multi-v2\/values.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/multi-v2\/values-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/single\/debug.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/blame\/res\/debug\/single\/debug-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/BuildConfig.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/BuildConfig.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/MainActivity.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/MainActivity.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$drawable.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$drawable.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$mipmap.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$mipmap.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$string.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$string.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$xml.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R$xml.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/compileDebugAidl\/dependency.store": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/compileDebugAidl\/dependency.store",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJavaRes\/merge-state": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJavaRes\/merge-state",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJavaRes\/zip-cache\/OfZiP1PqOkahpyFClrROYH6hr1E=": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJavaRes\/zip-cache\/OfZiP1PqOkahpyFClrROYH6hr1E=",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJniLibs\/merge-state": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJniLibs\/merge-state",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJniLibs\/zip-cache\/OfZiP1PqOkahpyFClrROYH6hr1E=": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/debug-mergeJniLibs\/zip-cache\/OfZiP1PqOkahpyFClrROYH6hr1E=",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugAssets\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugAssets\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugJniLibFolders\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugJniLibFolders\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/compile-file-map.properties": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/compile-file-map.properties",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugShaders\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugShaders\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/dex-renamer-state.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/dex-renamer-state.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/file-input-save-data.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/file-input-save-data.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/zip-cache\/VDCgWWLHq_LbvWYh3QOztRUD3ws=": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/packageDebug\/debug\/zip-cache\/VDCgWWLHq_LbvWYh3QOztRUD3ws=",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/javaPrecompile\/debug\/annotationProcessors.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/javaPrecompile\/debug\/annotationProcessors-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/manifests\/density\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/manifests\/density\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/manifests\/full\/debug\/AndroidManifest.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/manifests\/full\/debug\/AndroidManifest.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/manifests\/full\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/manifests\/full\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/manifests\/instant-run\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/manifests\/instant-run\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/processing-tools\/runtime-deps\/debug\/desugar_try_with_resources.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/processing-tools\/runtime-deps\/debug\/desugar_try_with_resources.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/debug\/resources-debug.ap_": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/debug\/resources-debug.ap_",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-hdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-hdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-ldpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-ldpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-mdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-mdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xxhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xxhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xxxhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xxxhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-hdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-hdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-ldpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-ldpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-mdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-mdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xxhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xxhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xxxhdpi_screen.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xxxhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-hdpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-hdpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-ldpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-ldpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-mdpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-mdpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xhdpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xhdpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxhdpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxhdpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxxhdpi_icon.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxxhdpi_icon.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/values_values.arsc.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/values_values.arsc.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/xml_config.xml.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/xml_config.xml.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/symbol-table-with-package\/debug\/package-aware-r.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/symbol-table-with-package\/debug\/package-aware-r.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/splits-support\/debug\/split-list.gson": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/splits-support\/debug\/split-list.gson",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/symbols\/debug\/R.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/symbols\/debug\/R.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/0.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/0.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/BuildConfig.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/BuildConfig.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/MainActivity.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/MainActivity.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$drawable.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$drawable.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$mipmap.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$mipmap.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$string.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$string.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$xml.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R$xml.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/R.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/R.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/BuildConfig.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/BuildConfig.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/MainActivity.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/MainActivity.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$drawable.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$drawable.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$mipmap.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$mipmap.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$string.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$string.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$xml.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R$xml.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/R.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/R.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$1.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin$CustomConfigXmlParser.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/1.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/1.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/10.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/10.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/2.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/2.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/3.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/3.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/4.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/4.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/5.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/5.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/8.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/8.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/9.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/9.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexMerger\/debug\/0\/classes.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexMerger\/debug\/0\/classes.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexMerger\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexMerger\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/externalLibsDexMerger\/debug\/0\/classes.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/externalLibsDexMerger\/debug\/0\/classes.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/externalLibsDexMerger\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/externalLibsDexMerger\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJavaRes\/debug\/0.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJavaRes\/debug\/0.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJavaRes\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJavaRes\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJniLibs\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/mergeJniLibs\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/stackFramesFixer\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/stackFramesFixer\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/outputs\/apk\/debug\/app-debug.apk": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/outputs\/apk\/debug\/app-debug.apk",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/outputs\/apk\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/build\/outputs\/apk\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/app\/build\/outputs\/logs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/platforms\/android\/app\/build\/outputs\/logs",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/src\/main\/AndroidManifest.xml": {
@@ -732,6 +2399,51 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -739,6 +2451,36 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/tinyshell.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -769,6 +2511,566 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/platform-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/platform-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/tinyshell.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_badges.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_badges.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_carousel.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_carousel.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_chips.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_chips.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_collapsible.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_collapsible.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_color-classes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_color-classes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_color-variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_color-variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_datepicker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_datepicker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_dropdown.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_dropdown.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_icons-material-design.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_icons-material-design.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_materialbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_materialbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_navbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_navbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_normalize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_preloader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_preloader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_pulse.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_pulse.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_sidenav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_sidenav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_table_of_contents.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_table_of_contents.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tapTarget.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tapTarget.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_timepicker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_timepicker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_toast.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_toast.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tooltip.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_tooltip.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_transitions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_transitions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_waves.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_waves.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_checkboxes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_checkboxes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_file-input.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_file-input.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_input-fields.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_input-fields.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_radio-buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_radio-buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_range.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_range.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_select.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_switches.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/forms\/_switches.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/materialize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/materialize.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/platforms\/android\/app\/src\/main\/java\/com\/algonquin\/mad9022\/giftr\/MainActivity.java": {
 		"cB": 0,
@@ -1001,6 +3303,156 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/build.gradle",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-00-443.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-00-443-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-00-443.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-00-443.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-36-222.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-36-222-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-36-222.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-36-36-222.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-38-44-296.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-38-44-296-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-38-44-296.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-38-44-296.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-50-46-594.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-50-46-594-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-50-46-594.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-50-46-594.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-51-07-859.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-51-07-859-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-51-07-859.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-51-07-859.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-55-45-072.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-55-45-072-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-55-45-072.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-12-55-45-072.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-23-37-167.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-23-37-167-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-23-37-167.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-23-37-167.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-27-51-426.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-27-51-426-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-27-51-426.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-27-51-426.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-32-32-110.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-32-32-110-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-32-32-110.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-32-32-110.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-59-46-964.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-59-46-964-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-59-46-964.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-59-46-964.rawproto",
 		"oF": 0
 		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
@@ -1426,6 +3878,801 @@
 		"oAP": "\/platforms\/android\/CordovaLib\/build.gradle",
 		"oF": 0
 		},
+	"\/platforms\/android\/CordovaLib\/build\/generated\/source\/buildConfig\/debug\/org\/apache\/cordova\/BuildConfig.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/generated\/source\/buildConfig\/debug\/org\/apache\/cordova\/BuildConfig.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/generated\/source\/r\/debug\/org\/apache\/cordova\/R.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/generated\/source\/r\/debug\/org\/apache\/cordova\/R.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/attr\/R.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/attr\/R.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/bundles\/debug\/R.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/bundles\/debug\/R.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/AuthenticationToken.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/AuthenticationToken.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/BuildConfig.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/BuildConfig.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/BuildHelper.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/BuildHelper.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CallbackContext.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CallbackContext.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CallbackMap.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CallbackMap.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Config.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Config.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ConfigXmlParser.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ConfigXmlParser.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$4$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$4$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaActivity.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaArgs.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaArgs.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaBridge.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaBridge.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaClientCertRequest.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaClientCertRequest.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$6.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$6.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$7.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$7.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$8.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$8.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$9.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$9.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$Result.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper$Result.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaDialogsHelper.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaHttpAuthHandler.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaHttpAuthHandler.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterface.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterface.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterfaceImpl$ActivityResultHolder.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterfaceImpl$ActivityResultHolder.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterfaceImpl.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaInterfaceImpl.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaPlugin.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaPlugin.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaPreferences.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaPreferences.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaResourceApi$OpenForReadResult.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaResourceApi$OpenForReadResult.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaResourceApi.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaResourceApi.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebView.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebView.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine$Client.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine$Client.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine$EngineView.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine$EngineView.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewEngine.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient$1$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient$1$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl$EngineClient.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CordovaWebViewImpl.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/CoreAndroid.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemCookieManager.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemCookieManager.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemExposedJsApi.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemExposedJsApi.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebChromeClient.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebView.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebView.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewClient.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/engine\/SystemWebViewEngine.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ExposedJsApi.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ExposedJsApi.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaClientCertRequest.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaClientCertRequest.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaCookieManager.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaCookieManager.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaHttpAuthHandler.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ICordovaHttpAuthHandler.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/LOG.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/LOG.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$BridgeMode.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$BridgeMode.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$EvalBridgeMode$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$EvalBridgeMode$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$EvalBridgeMode.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$EvalBridgeMode.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$JsMessage.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$JsMessage.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$LoadUrlBridgeMode.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$LoadUrlBridgeMode.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$NoOpBridgeMode.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$NoOpBridgeMode.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue$OnlineEventsBridgeMode.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/NativeToJsMessageQueue.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PermissionHelper.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PermissionHelper.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginEntry.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginEntry.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginManager.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginManager.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginResult$Status.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginResult$Status.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginResult.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/PluginResult.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ResumeCallback.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/ResumeCallback.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Whitelist$URLPattern.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Whitelist$URLPattern.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Whitelist.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/Whitelist.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/compileDebugAidl\/dependency.store": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/compileDebugAidl\/dependency.store",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/debug-mergeJniLibs\/merge-state": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/debug-mergeJniLibs\/merge-state",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugAssets\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugAssets\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugJniLibFolders\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugJniLibFolders\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugShaders\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/mergeDebugShaders\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/packageDebugResources\/compile-file-map.properties": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/packageDebugResources\/compile-file-map.properties",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/packageDebugResources\/merger.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/incremental\/packageDebugResources\/merger.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/intermediate-jars\/debug\/classes.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/intermediate-jars\/debug\/classes.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/intermediate-jars\/debug\/res.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/intermediate-jars\/debug\/res.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/javaPrecompile\/debug\/annotationProcessors.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/javaPrecompile\/debug\/annotationProcessors-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/aapt\/debug\/AndroidManifest.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/aapt\/debug\/AndroidManifest.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/aapt\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/aapt\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/full\/debug\/AndroidManifest.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/full\/debug\/AndroidManifest.xml",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/full\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/manifests\/full\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/res\/debug\/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/res\/debug\/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/res\/symbol-table-with-package\/debug\/package-aware-r.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/res\/symbol-table-with-package\/debug\/package-aware-r.txt",
+		"oF": 0
+		},
+	"\/platforms\/android\/CordovaLib\/build\/intermediates\/transforms\/mergeJniLibs\/debug\/__content__.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/CordovaLib\/build\/intermediates\/transforms\/mergeJniLibs\/debug\/__content__-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/CordovaLib\/build\/outputs\/logs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/platforms\/android\/CordovaLib\/build\/outputs\/logs",
+		"oF": 0
+		},
 	"\/platforms\/android\/CordovaLib\/cordova.gradle": {
 		"cB": 0,
 		"ft": 8192,
@@ -1713,6 +4960,34 @@
 		"oAP": "\/platforms\/android\/CordovaLib\/src\/org\/apache\/cordova\/Whitelist.java",
 		"oF": 0
 		},
+	"\/platforms\/android\/gradle\/wrapper\/gradle-wrapper.jar": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/gradle\/wrapper\/gradle-wrapper.jar",
+		"oF": 0
+		},
+	"\/platforms\/android\/gradle\/wrapper\/gradle-wrapper.properties": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/gradle\/wrapper\/gradle-wrapper.properties",
+		"oF": 0
+		},
+	"\/platforms\/android\/gradlew": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/gradlew",
+		"oF": 0
+		},
+	"\/platforms\/android\/gradlew.bat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/gradlew.bat",
+		"oF": 0
+		},
 	"\/platforms\/android\/platform_www\/cordova-js-src\/android\/nativeapiprovider.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1809,6 +5084,900 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/.gitignore",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png": {
+		"ft": 32768,
+		"iS": 3294,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x.png": {
+		"ft": 32768,
+		"iS": 5608,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 5608,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@3x.png": {
+		"ft": 32768,
+		"iS": 7040,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29~ipad.png": {
+		"ft": 32768,
+		"iS": 3294,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x.png": {
+		"ft": 32768,
+		"iS": 7411,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 7411,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@3x.png": {
+		"ft": 32768,
+		"iS": 11924,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40~ipad.png": {
+		"ft": 32768,
+		"iS": 4082,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 9611,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50~ipad.png": {
+		"ft": 32768,
+		"iS": 4874,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57.png": {
+		"ft": 32768,
+		"iS": 3902,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57@2x.png": {
+		"ft": 32768,
+		"iS": 7869,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@2x.png": {
+		"ft": 32768,
+		"iS": 11924,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@3x.png": {
+		"ft": 32768,
+		"iS": 30083,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 11706,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72~ipad.png": {
+		"ft": 32768,
+		"iS": 4944,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 15262,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76~ipad.png": {
+		"ft": 32768,
+		"iS": 7025,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 20563,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-568h@2x.png": {
+		"ft": 32768,
+		"iS": 34225,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-568h@2x.png": {
+		"ft": 32768,
+		"iS": 34225,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 212234,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 91810,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 212860,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 91713,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700@2x.png": {
+		"ft": 32768,
+		"iS": 29475,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-700@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-667h@2x.png": {
+		"ft": 32768,
+		"iS": 57532,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-667h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png": {
+		"ft": 32768,
+		"iS": 79491,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png": {
+		"ft": 32768,
+		"iS": 80929,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 212234,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 91810,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 212860,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 91713,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage.png": {
+		"ft": 32768,
+		"iS": 10394,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage@2x.png": {
+		"ft": 32768,
+		"iS": 29475,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/MainViewController.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/MainViewController.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/exec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/exec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova_plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova_plugins-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/tinyshell.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 9154,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/index.html",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDV.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDV.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAppDelegate.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAppDelegate.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAvailability.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAvailability.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAvailabilityDeprecated.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVAvailabilityDeprecated.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandDelegate.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandDelegate.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandDelegateImpl.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandDelegateImpl.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandQueue.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVCommandQueue.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVConfigParser.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVConfigParser.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVInvokedUrlCommand.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVInvokedUrlCommand.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPlugin+Resources.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPlugin+Resources.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPlugin.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPlugin.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPluginResult.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVPluginResult.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVScreenOrientationDelegate.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVScreenOrientationDelegate.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVTimer.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVTimer.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVUIWebViewDelegate.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVUIWebViewDelegate.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVURLProtocol.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVURLProtocol.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVUserAgentUtil.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVUserAgentUtil.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVViewController.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVViewController.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVWebViewEngineProtocol.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVWebViewEngineProtocol.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVWhitelist.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/CDVWhitelist.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/NSDictionary+CordovaPreferences.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/NSDictionary+CordovaPreferences.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/include\/Cordova\/NSMutableArray+QueueAdditions.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/include\/Cordova\/NSMutableArray+QueueAdditions.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/libCordova.a": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/libCordova.a",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.pch",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.pch-aacf1cee",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.pch.hash-criteria",
 		"oF": 0
 		},
 	"\/platforms\/ios\/cordova\/Api.js": {
@@ -3141,6 +7310,51 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/ios\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
 	"\/platforms\/ios\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3148,6 +7362,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/tinyshell.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -3175,6 +7409,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/js\/tinyshell.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -4079,6 +8333,16 @@
 		"oA": 0,
 		"oAP": "\/www\/js\/index-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/www\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/www\/js\/materialize-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},

@@ -1,0 +1,1 @@
+var platformConstants={platform:"iOS"};

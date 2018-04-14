@@ -1,0 +1,3 @@
+var platformConstants = {
+    platform: "iOS"
+}
