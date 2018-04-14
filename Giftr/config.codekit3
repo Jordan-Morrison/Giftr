@@ -968,16 +968,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2454,16 +2444,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3453,6 +3433,291 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-13-59-46-964.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-12-07-836.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-12-07-836-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-12-07-836.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-12-07-836.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-21-44-952.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-21-44-952-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-21-44-952.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-21-44-952.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-25-39-566.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-25-39-566-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-25-39-566.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-25-39-566.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-26-19-323.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-26-19-323-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-26-19-323.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-26-19-323.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-31-15-930.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-31-15-930-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-31-15-930.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-31-15-930.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-36-43-655.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-36-43-655-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-36-43-655.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-36-43-655.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-37-52-131.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-37-52-131-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-37-52-131.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-37-52-131.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-39-00-352.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-39-00-352-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-39-00-352.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-39-00-352.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-15-497.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-15-497-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-15-497.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-15-497.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-54-082.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-54-082-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-54-082.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-40-54-082.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-45-29-132.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-45-29-132-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-45-29-132.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-45-29-132.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-46-02-695.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-46-02-695-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-46-02-695.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-46-02-695.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-48-02-669.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-48-02-669-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-48-02-669.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-48-02-669.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-49-23-490.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-49-23-490-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-49-23-490.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-49-23-490.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-51-02-088.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-51-02-088-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-51-02-088.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-51-02-088.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-53-00-808.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-53-00-808-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-53-00-808.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-53-00-808.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-59-31-534.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-59-31-534-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-59-31-534.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-14-59-31-534.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-03-03-477.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-03-03-477-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-03-03-477.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-03-03-477.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-08-30-101.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-08-30-101-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-08-30-101.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-14-15-08-30-101.rawproto",
 		"oF": 0
 		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
