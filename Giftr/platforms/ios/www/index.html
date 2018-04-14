@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *; style-src 'unsafe-inline' *; media-src *; img-src 'self' data: content:;">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/tinyshell.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/platform.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Giftr</title>
 </head>
 
@@ -24,9 +25,9 @@
             IOS:
             - Button to add person in nav bar 
         -->
-    <div id="peopleScreen" class="page">
+    <div id="peopleScreen" class="page active">
         <header class="bar top">
-            <h1 id="page-title" class="t2">People</h1>
+            <h1 id="page-title">People</h1>
         </header>
         <section class="content">
             <ul class="list-view">
@@ -36,6 +37,39 @@
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right"></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right"></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right"></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right"></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <li class="list-item">
+                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right"></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <div class="fixed-action-btn">
+                    <a id="add-person-button-android" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
             </ul>
         </section>
     </div>
@@ -53,9 +87,9 @@
                 - Way to save the person and go back to the person list page
                 - Way to cancel adding a person and go back to person list page
         -->
-    <div id="peopleForm" class="page active">
+    <div id="peopleForm" class="page">
         <header class="bar top">
-            <h1 id="page-title" class="t2">Add Person</h1>
+            <h1 id="page-title">Add Person</h1>
         </header>
         <section class="content">
             <form>
@@ -90,7 +124,7 @@
         -->
     <div id="giftScreen" class="page">
         <header class="bar top">
-            <h1 id="page-title" class="t2">Gifts</h1>
+            <h1 id="page-title">Gifts</h1>
         </header>
         <section class="content">
             <ul class="list-view">
@@ -100,6 +134,9 @@
                     <p>Gift Name</p>
                     <p>Price</p>
                 </li>
+                <div class="fixed-action-btn">
+                    <a id="add-gift-button-android" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                </div>
             </ul>
         </section>
     </div>
@@ -116,7 +153,7 @@
         -->
     <div id="giftForm" class="page">
         <header class="bar top">
-            <h1 id="page-title" class="t2">Add Gift</h1>
+            <h1 id="page-title">Add Gift</h1>
         </header>
         <section class="content">
             <form>
@@ -146,8 +183,9 @@
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/tinyshell.min.js?v=1"></script>
-    <script type="text/javascript" src="js/platform.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/platform.js"></script>
 </body>
 
 </html>

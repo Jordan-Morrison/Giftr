@@ -30,14 +30,14 @@
             <h1 id="page-title">People</h1>
         </header>
         <section class="content">
-            <ul class="list-view">
-                <li class="list-item">
+            <ul id='person-list' class="list-view">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
@@ -68,7 +68,7 @@
                     <p>Birthday</p>
                 </li>
                 <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-person-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -135,7 +135,7 @@
                     <p>Price</p>
                 </li>
                 <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-gift-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -184,8 +184,8 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/tinyshell.min.js?v=1"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="js/platform.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/platform.js"></script>
 </body>
 
 </html>
