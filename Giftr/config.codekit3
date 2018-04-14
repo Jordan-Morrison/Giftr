@@ -41,13 +41,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/merges\/android\/css\/android.css": {
+	"\/merges\/android\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/merges\/android\/css\/android-min.css",
+		"oAP": "\/merges\/android\/css\/platform-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -586,27 +586,27 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/merges\/android\/css\/android.css",
+		"oAP": "\/merges\/android\/css\/platform.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/merges\/ios\/css\/ios.css": {
+	"\/merges\/ios\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/merges\/ios\/css\/ios-min.css",
+		"oAP": "\/merges\/ios\/css\/platform-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/merges\/ios\/js\/ios.js": {
+	"\/merges\/ios\/js\/platform.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/merges\/ios\/js\/ios-min.js",
+		"oAP": "\/merges\/ios\/js\/platform-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -4034,6 +4034,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/www\/css\/platform-min.css",
+		"oF": 1,
+		"oS": 3
+		},
 	"\/www\/css\/tinyshell.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4069,6 +4079,16 @@
 		"oA": 0,
 		"oAP": "\/www\/js\/index-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/www\/js\/platform-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
