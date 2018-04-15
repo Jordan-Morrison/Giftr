@@ -7,7 +7,9 @@ app.platformConstants = {
         giftListBackButton: document.getElementById('gift-back-button-android')
     },
 
+    // Perform initial platform-specific actions
     init: function(){
+        // Scale-in add person button on home screen first time app is opened, and add pulse to get user attention
         setTimeout(() => {
             app.platformConstants.buttons.addPersonButton.parentElement.classList.add('scale-in');
         }, 800);
