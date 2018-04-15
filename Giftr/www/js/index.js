@@ -46,13 +46,7 @@ const app = {
                 document.getElementById('giftScreen').classList.add('active');
                 document.getElementById('peopleScreen').classList.remove('active');
                 if(app.platformConstants.platform === 'Android'){
-                    setTimeout(() => {
-                        app.platformConstants.buttons.addGiftButton.parentElement.classList.add('scale-in');
-                    }, 800);
-                    app.platformConstants.buttons.addGiftButton.parentElement.classList.add('pulse');
-                    setTimeout(() => {
-                        app.platformConstants.buttons.addGiftButton.parentElement.classList.remove('pulse');
-                    }, 1000);
+                    app.platformConstants.giftAddAnimate();
                 }
                 // Function that builds the list of gifts for the chosen person would go here
         }

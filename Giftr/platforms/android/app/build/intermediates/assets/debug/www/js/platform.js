@@ -17,6 +17,16 @@ app.platformConstants = {
         setTimeout(() => {
             app.platformConstants.buttons.addPersonButton.parentElement.classList.remove('pulse');
         }, 2000);
+    },
+
+    giftAddAnimate: function(){
+        setTimeout(() => {
+            app.platformConstants.buttons.addGiftButton.parentElement.classList.add('scale-in');
+        }, 800);
+        app.platformConstants.buttons.addGiftButton.parentElement.classList.add('pulse');
+        setTimeout(() => {
+            app.platformConstants.buttons.addGiftButton.parentElement.classList.remove('pulse');
+        }, 1000);
     }
 };
 
