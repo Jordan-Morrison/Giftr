@@ -1,0 +1,1 @@
+cordova.define("cordova/plugin_list",function(o,t,i){i.exports=[],i.exports.metadata={"cordova-plugin-whitelist":"1.3.3"}});

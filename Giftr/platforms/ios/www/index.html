@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *; style-src 'unsafe-inline' *; media-src *; img-src 'self' data: content:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' *; media-src *; img-src * 'self' * data: content:; connect-src *;"
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -28,47 +28,48 @@
     <div id="peopleScreen" class="page active">
         <header class="bar top">
             <h1 id="page-title">People</h1>
+            <span id="add-person-button-ios" class="right-button add">Add</span>
         </header>
         <section class="content">
-            <ul class="list-view">
-                <li class="list-item">
+            <ul id='person-list' class="list-view">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <li class="list-item">
+                <li class="list-item person">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
                 <div class="fixed-action-btn">
-                    <a id="add-person-button-android" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-person-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -102,8 +103,8 @@
                     <input type="date" id="birthday" required/>
                 </p>
                 <p class="form-row buttons">
-                    <input type="button" id="btn-cancel" class="btn-small" value="cancel" />
-                    <input type="submit" id="btn-sub" class="btn-small" value="submit" />
+                    <input type="button" id="add-person-cancel-button" class="btn-small" value="cancel" />
+                    <input type="submit" id="add-person-submit-button" class="btn-small" value="submit" />
                 </p>
             </form>
         </section>
@@ -124,7 +125,9 @@
         -->
     <div id="giftScreen" class="page">
         <header class="bar top">
+            <span id="gift-back-button-android" class='left-button back'>Back</span>
             <h1 id="page-title">Gifts</h1>
+            <span id='add-gift-button-ios' class='right-button add'>Add</span>
         </header>
         <section class="content">
             <ul class="list-view">
@@ -135,7 +138,7 @@
                     <p>Price</p>
                 </li>
                 <div class="fixed-action-btn">
-                    <a id="add-gift-button-android" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-gift-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -174,8 +177,8 @@
                     <label for="giftUrl">Gift URL</label>
                 </p>
                 <p class="form-row buttons">
-                    <input type="button" id="btn-cancel" class="btn-small" value="cancel" />
-                    <input type="submit" id="btn-sub" class="btn-small" value="submit" />
+                    <input type="button" id="add-gift-cancel-button" class="btn-small" value="cancel" />
+                    <input type="submit" id="add-gift-submit-button" class="btn-small" value="save" />
                 </p>
             </form>
         </section>

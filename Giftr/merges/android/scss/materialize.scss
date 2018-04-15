@@ -40,6 +40,30 @@
 @import "components/datepicker";
 @import "components/timepicker";
 
+// Content CSS
+
 .content {
     margin-top: 5%;
+}
+
+// Header CSS
+
+h1 {
+    margin: 0.67em 0;
+}
+
+.left-button.back {
+    position: fixed;
+    left: 0;
+    margin-left: 6%;
+}
+
+// Platform CSS
+
+#add-person-button-ios {
+    display: none;
+}
+
+#add-gift-button-ios {
+    display: none;
 }

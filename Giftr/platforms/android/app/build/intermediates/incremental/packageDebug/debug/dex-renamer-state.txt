@@ -1,4 +1,4 @@
-#Sat Apr 14 17:19:07 EDT 2018
+#Sat Apr 14 23:42:10 EDT 2018
 base.0=/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 file.0=/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
