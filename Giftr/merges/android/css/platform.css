@@ -6518,3 +6518,18 @@ h1 {
 
 #add-gift-button-ios {
   display: none; }
+
+input {
+  font-size: 2rem; }
+
+input:required:invalid + label {
+  transform: translateY(12px); }
+
+input[type=text]:not(.browser-default) {
+  font-size: 1.5rem; }
+
+input[type=date]:not(.browser-default) {
+  font-size: 1.8rem; }
+
+input[type=number]:not(.browser-default) {
+  font-size: 1.5rem; }

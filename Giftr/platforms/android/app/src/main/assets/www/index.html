@@ -94,18 +94,18 @@
         </header>
         <section class="content">
             <form>
-                <p class="form-row">
+                <div class="form-row input-field">
                     <input type="text" id="name" required/>
                     <label for="name">Name</label>
-                </p>
-                <p class="form-row">
-                    <label for="birthday">Birthday: </label>
+                </div>
+                <div class="form-row input-field">
                     <input type="date" id="birthday" required/>
-                </p>
-                <p class="form-row buttons">
+                    <label for="birthday">Birthday: </label>
+                </div>
+                <div class="form-row input-field">
                     <input type="button" id="add-person-cancel-button" class="btn-small" value="cancel" />
                     <input type="submit" id="add-person-submit-button" class="btn-small" value="submit" />
-                </p>
+                </div>
             </form>
         </section>
     </div>
@@ -160,26 +160,26 @@
         </header>
         <section class="content">
             <form>
-                <p class="form-row">
+                <div class="form-row input-field">
                     <input type="text" id="giftIdea" required/>
                     <label for="giftIdea">Gift Idea</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="number" id="giftPrice" min="0" step="0.01" required/>
                     <label for="giftPrice">Price</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="text" id="giftStore" required/>
                     <label for="giftStore">Store</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="text" id="giftUrl" required/>
                     <label for="giftUrl">Gift URL</label>
-                </p>
-                <p class="form-row buttons">
+                </div>
+                <div class="form-row buttons">
                     <input type="button" id="add-gift-cancel-button" class="btn-small" value="cancel" />
                     <input type="submit" id="add-gift-submit-button" class="btn-small" value="save" />
-                </p>
+                </div>
             </form>
         </section>
     </div>
