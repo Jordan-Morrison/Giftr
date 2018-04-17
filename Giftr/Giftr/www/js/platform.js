@@ -1,0 +1,1 @@
+//Placeholder file to be replaced by Cordova from merges folder
