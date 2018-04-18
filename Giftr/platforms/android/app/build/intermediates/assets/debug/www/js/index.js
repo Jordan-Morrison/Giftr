@@ -33,8 +33,15 @@ const app = {
         });
 
         //Gift list back to people list
+<<<<<<< HEAD
         document.getElementById("giftScreenBackButton").addEventListener("click", function(){
             app.navigate("giftScreen", "peopleScreen");
+=======
+        document.querySelectorAll(".giftScreenBackButton").forEach(element => {
+            element.addEventListener("click", function(){
+                app.navigate("giftScreen", "peopleScreen");
+            })
+>>>>>>> android-branch
         });
 
         //Add gift form (cancelled) to gift list 
@@ -46,6 +53,7 @@ const app = {
         document.getElementById("giftFormSaveButton").addEventListener("click", function(){
             //Any extra action on saving data goes here
             app.navigate("giftForm", "giftScreen");
+<<<<<<< HEAD
         });
     },
 
@@ -59,6 +67,25 @@ const app = {
         });
     },
 
+=======
+        });
+    },
+
+    //Dynamic listeners are the list items which can change throughout the session
+    addDynamicEventListeners: function(){
+        document.querySelectorAll("#peopleList .list-item").forEach(element => {
+            element.addEventListener("click", function(){
+                //Update gift screen with data from server
+                app.navigate("peopleScreen", "giftScreen");
+                // If platform is Android, add animations
+                if(app.platformConstants.platform === 'Android'){
+                    app.platformConstants.giftAddAnimate();
+                }
+            });
+        });
+    },
+
+>>>>>>> android-branch
     //Simple navigation function to reduce code repetition
     navigate: function(hide, show){
         document.getElementById(hide).classList.remove("active");

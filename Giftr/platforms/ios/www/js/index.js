@@ -33,8 +33,15 @@ const app = {
         });
 
         //Gift list back to people list
+<<<<<<< HEAD
         document.getElementById("giftScreenBackButton").addEventListener("click", function(){
             app.navigate("giftScreen", "peopleScreen");
+=======
+        document.querySelectorAll(".giftScreenBackButton").forEach(element => {
+            element.addEventListener("click", function(){
+                app.navigate("giftScreen", "peopleScreen");
+            })
+>>>>>>> android-branch
         });
 
         //Add gift form (cancelled) to gift list 
@@ -55,6 +62,13 @@ const app = {
             element.addEventListener("click", function(){
                 //Update gift screen with data from server
                 app.navigate("peopleScreen", "giftScreen");
+<<<<<<< HEAD
+=======
+                // If platform is Android, add animations
+                if(app.platformConstants.platform === 'Android'){
+                    app.platformConstants.giftAddAnimate();
+                }
+>>>>>>> android-branch
             });
         });
     },

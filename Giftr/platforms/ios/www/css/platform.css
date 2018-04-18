@@ -8,8 +8,15 @@
     color: rgb(50,124,246);
 }
 
+<<<<<<< HEAD
 /* Tinyshell has a glitch where if you only have one item it goes to the left, so fixing that here */
 .rightOnly{
     position: absolute;
     right: 0;
+=======
+/* Platform CSS */
+
+.android {
+    display: none;
+>>>>>>> android-branch
 }

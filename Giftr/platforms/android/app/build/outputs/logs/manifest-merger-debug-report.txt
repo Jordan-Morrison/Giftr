@@ -59,7 +59,11 @@ ADDED from /Users/jordanmorrison/Documents/School/College/Javascript 2/Assignmen
 	android:launchMode
 		ADDED from /Users/jordanmorrison/Documents/School/College/Javascript 2/Assignments/Giftr/Giftr/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
 	android:windowSoftInputMode
+<<<<<<< HEAD
 		ADDED from /Users/jordanmorrison/Documents/School/College/Javascript 2/Assignments/Giftr/Giftr/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+=======
+		ADDED from /Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+>>>>>>> android-branch
 	android:configChanges
 		ADDED from /Users/jordanmorrison/Documents/School/College/Javascript 2/Assignments/Giftr/Giftr/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
 	android:theme
