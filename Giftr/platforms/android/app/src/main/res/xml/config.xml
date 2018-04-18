@@ -24,6 +24,4 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="fullscreen" value="false" />
-    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
 </widget>
