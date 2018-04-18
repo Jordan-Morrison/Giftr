@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' *; media-src *; img-src * 'self' * data: content:; connect-src *;"
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' *; media-src *; img-src * 'self' * data: content:; connect-src *;"
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -26,13 +26,17 @@
             - Button to add person in nav bar 
         -->
     <div id="peopleScreen" class="page active">
-        <header class="bar top">
+        <!-- iOS Navbar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link right rightOnly icon add addPersonButton">Add</a>
+        </nav>
+        <!-- Android Header/Navbar -->
+        <header class="android bar top">
             <h1 id="page-title">People</h1>
-            <span id="add-person-button-ios" class="right-button add">Add</span>
         </header>
         <section class="content">
-            <ul id='person-list' class="list-view">
-                <li class="list-item person">
+            <ul id='peopleList' class="list-view">
+                <li class="list-item">
                     <img src="img/logo.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
@@ -68,8 +72,8 @@
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
-                <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-person-button-android" class="material-icons">add</i></a>
+                <div class="android fixed-action-btn addPersonButton">
+                    <a class="btn-floating btn-large waves-effect waves-light red scale-transition scale-out"><i id="add-person-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -89,23 +93,23 @@
                 - Way to cancel adding a person and go back to person list page
         -->
     <div id="peopleForm" class="page">
-        <header class="bar top">
+        <header class="android bar top">
             <h1 id="page-title">Add Person</h1>
         </header>
         <section class="content">
             <form>
-                <p class="form-row">
+                <div class="form-row input-field">
                     <input type="text" id="name" required/>
                     <label for="name">Name</label>
-                </p>
-                <p class="form-row">
-                    <label for="birthday">Birthday: </label>
+                </div>
+                <div class="form-row input-field">
                     <input type="date" id="birthday" required/>
-                </p>
-                <p class="form-row buttons">
-                    <input type="button" id="add-person-cancel-button" class="btn-small" value="cancel" />
-                    <input type="submit" id="add-person-submit-button" class="btn-small" value="submit" />
-                </p>
+                    <label for="birthday">Birthday: </label>
+                </div>
+                <div class="form-row input-field">
+                    <input type="button" id="peopleFormCancelButton" class="btn-small" value="cancel" />
+                    <input type="submit" id="peopleFormSaveButton" class="btn-small" value="submit" />
+                </div>
             </form>
         </section>
     </div>
@@ -124,10 +128,15 @@
                 - Way to navigate back to the person list page
         -->
     <div id="giftScreen" class="page">
-        <header class="bar top">
-            <span id="gift-back-button-android" class='left-button back'>Back</span>
+        <!-- iOS Nav Bar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link left icon arrow_left giftScreenBackButton">Back</a>
+            <a href="#" class="link right icon add addGiftButton">Add</a>
+        </nav>
+        <!-- Android Header/Nav Bar -->
+        <header class="android bar top">
+            <span id="gift-back-button-android" class='left-button back giftScreenBackButton'>Back</span>
             <h1 id="page-title">Gifts</h1>
-            <span id='add-gift-button-ios' class='right-button add'>Add</span>
         </header>
         <section class="content">
             <ul class="list-view">
@@ -137,8 +146,8 @@
                     <p>Gift Name</p>
                     <p>Price</p>
                 </li>
-                <div class="fixed-action-btn">
-                    <a class="btn-floating btn-large waves-effect waves-light red"><i id="add-gift-button-android" class="material-icons">add</i></a>
+                <div class="android fixed-action-btn addGiftButton">
+                    <a class="btn-floating btn-large waves-effect waves-light red scale-out"><i id="add-gift-button-android" class="material-icons">add</i></a>
                 </div>
             </ul>
         </section>
@@ -155,31 +164,31 @@
                 - Way to cancel adding a gift and go back to gift list page
         -->
     <div id="giftForm" class="page">
-        <header class="bar top">
+        <header class="android bar top">
             <h1 id="page-title">Add Gift</h1>
         </header>
         <section class="content">
             <form>
-                <p class="form-row">
+                <div class="form-row input-field">
                     <input type="text" id="giftIdea" required/>
                     <label for="giftIdea">Gift Idea</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="number" id="giftPrice" min="0" step="0.01" required/>
                     <label for="giftPrice">Price</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="text" id="giftStore" required/>
                     <label for="giftStore">Store</label>
-                </p>
-                <p class="form-row">
+                </div>
+                <div class="form-row input-field">
                     <input type="text" id="giftUrl" required/>
                     <label for="giftUrl">Gift URL</label>
-                </p>
-                <p class="form-row buttons">
-                    <input type="button" id="add-gift-cancel-button" class="btn-small" value="cancel" />
-                    <input type="submit" id="add-gift-submit-button" class="btn-small" value="save" />
-                </p>
+                </div>
+                <div class="form-row buttons">
+                    <input type="button" id="giftFormCancelButton" class="btn-small" value="cancel" />
+                    <input type="submit" id="giftFormSaveButton" class="btn-small" value="save" />
+                </div>
             </form>
         </section>
     </div>

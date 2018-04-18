@@ -6513,10 +6513,7 @@ h1 {
   left: 0;
   margin-left: 6%; }
 
-#add-person-button-ios {
-  display: none; }
-
-#add-gift-button-ios {
+.ios {
   display: none; }
 
 input {

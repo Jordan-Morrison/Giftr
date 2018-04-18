@@ -1,55 +1,77 @@
 const app = {
 
-    init: function(){
-        // Get buttons from the platform specific javascript file and add navigation event listener
-        app.platformConstants.buttons.addPersonButton.addEventListener('click', app.nav);
-        app.platformConstants.buttons.addGiftButton.addEventListener('click', app.nav);
-        app.platformConstants.buttons.giftListBackButton.addEventListener('click', app.nav);
-        document.getElementById('add-gift-cancel-button').addEventListener('click', app.nav);
-        document.getElementById('add-person-cancel-button').addEventListener('click', app.nav);        
-        // Add event listener to each person on page, temporary as ideally this will be a run of the list checking->building function
-        // with each item given a listener
-        Array.from(document.getElementsByClassName('list-item person')).forEach(element => {
-            element.addEventListener('click', app.nav);
+    main: function(){
+        app.addConstantEventListeners();
+        app.addDynamicEventListeners();
+    },
+
+    //Constant listeners are mainly navigation buttons (always stay the same throughout session)
+    addConstantEventListeners: function(){
+        //People list to add person form
+        document.querySelectorAll(".addPersonButton").forEach(element => {
+            element.addEventListener("click", function(){
+                app.navigate("peopleScreen", "peopleForm");
+            })
+        });
+
+        //Add person form (cancelled) to people list 
+        document.getElementById("peopleFormCancelButton").addEventListener("click",function(){
+            app.navigate("peopleForm", "peopleScreen");
+        });
+
+        //Add person form (saved) to people list 
+        document.getElementById("peopleFormSaveButton").addEventListener("click",function(){
+            //Any extra action on saving data goes here
+            app.navigate("peopleForm", "peopleScreen");
+        });
+
+        //Gift list to add new gift screen
+        document.querySelectorAll(".addGiftButton").forEach(element => {
+            element.addEventListener("click", function(){
+                app.navigate("giftScreen", "giftForm");
+            })
+        });
+
+        //Gift list back to people list
+        document.querySelectorAll(".giftScreenBackButton").forEach(element => {
+            element.addEventListener("click", function(){
+                app.navigate("giftScreen", "peopleScreen");
+            })
+        });
+
+        //Add gift form (cancelled) to gift list 
+        document.getElementById("giftFormCancelButton").addEventListener("click", function(){
+            app.navigate("giftForm", "giftScreen");
+        });
+
+        //Add gift form (saved) to gift list 
+        document.getElementById("giftFormSaveButton").addEventListener("click", function(){
+            //Any extra action on saving data goes here
+            app.navigate("giftForm", "giftScreen");
         });
     },
 
-    nav: function(ev){
-        console.log(ev.target.id);
-        // Following regular expressions allow for platform independent navigation for example, button could be either add-person-button-android
-        // or add-person-button-ios and you would see the same behaviour
-        let addPersonButton = new RegExp('add-person-button-.*');
-        let addGiftButton = new RegExp('add-gift-button-.*');
-        let giftListBackButton = new RegExp('gift-back-button-.*');
-        switch (true) {
-            case addPersonButton.test(ev.target.id) :
-                document.getElementById('peopleForm').classList.add('active');
-                document.getElementById('peopleScreen').classList.remove('active');
-                break;
-            case ev.target.id === 'add-person-cancel-button' :
-                document.getElementById('peopleScreen').classList.add('active');
-                document.getElementById('peopleForm').classList.remove('active');
-                break;
-            case ev.target.id === 'add-gift-cancel-button' :
-                document.getElementById('giftScreen').classList.add('active');
-                document.getElementById('giftForm').classList.remove('active');
-                break;
-            case addGiftButton.test(ev.target.id) :
-                document.getElementById('giftForm').classList.add('active');
-                document.getElementById('giftScreen').classList.remove('active');
-                break;
-            case giftListBackButton.test(ev.target.id) :
-                document.getElementById('peopleScreen').classList.add('active');
-                document.getElementById('giftScreen').classList.remove('active');
-                break;
-            case ev.target.offsetParent.className == 'list-item person' || ev.target.className == 'list-item person' :
-                document.getElementById('giftScreen').classList.add('active');
-                document.getElementById('peopleScreen').classList.remove('active');
-                // Function that builds the list of gifts for the chosen person would go here
-        }
+    //Dynamic listeners are the list items which can change throughout the session
+    addDynamicEventListeners: function(){
+        document.querySelectorAll("#peopleList .list-item").forEach(element => {
+            element.addEventListener("click", function(){
+                //Update gift screen with data from server
+                app.navigate("peopleScreen", "giftScreen");
+                // If platform is Android, add animations
+                if(app.platformConstants.platform === 'Android'){
+                    app.platformConstants.giftAddAnimate();
+                }
+            });
+        });
+    },
+
+    //Simple navigation function to reduce code repetition
+    navigate: function(hide, show){
+        document.getElementById(hide).classList.remove("active");
+        document.getElementById(show).classList.add("active");
     }
 
 };
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
-document.addEventListener(loadEvent, app.init);
+document.addEventListener(loadEvent, app.main);
