@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jordanmorrison/Documents/School/College/Javascript 2/Assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/jordanmorrison/Documents/School/College/Javascript 2/Assignments/Giftr/Giftr/platforms/android/app/src/main/res/values/strings.xml",
+                    "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",

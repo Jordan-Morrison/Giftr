@@ -72,10 +72,6 @@ input {
     font-size: 2rem;
 }
 
-input:required:invalid+label {
-    transform: translateY(12px);
-}
-
 input[type=text]:not(.browser-default) {
     font-size: 1.5rem;
 }

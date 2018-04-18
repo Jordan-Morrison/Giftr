@@ -591,16 +591,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/merges\/ios\/css\/platform-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/merges\/ios\/css\/platform-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/merges\/ios\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -833,32 +823,12 @@
 		"oAP": "\/platforms\/android\/app\/build\/generated\/source\/r\/debug\/org\/apache\/cordova\/R.java",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/nativeapiprovider-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/promptbasednativeapi-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/android\/promptbasednativeapi-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -873,32 +843,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/exec-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/platform-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/platform-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -913,32 +863,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-js-src\/plugin\/android\/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/cordova-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1050,7 +980,7 @@
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/img\/logo.png": {
 		"ft": 32768,
-		"iS": 9154,
+		"iS": 21814,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/img\/logo.png",
 		"oF": 0,
@@ -1102,16 +1032,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/tinyshell.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1709,13 +1629,6 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/com\/algonquin\/mad9022\/giftr\/R.class",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.class": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.class",
-		"oF": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class": {
 		"cB": 0,
 		"ft": 8192,
@@ -1798,6 +1711,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/compile-file-map.properties",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merger.xml": {
@@ -2113,13 +2033,6 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/com\/algonquin\/mad9022\/giftr\/R.class",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.class": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.class",
-		"oF": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/1\/org\/apache\/cordova\/R.class": {
 		"cB": 0,
 		"ft": 8192,
@@ -2203,13 +2116,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/com\/algonquin\/mad9022\/giftr\/R.dex",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.dex": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.dex",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/0\/org\/apache\/cordova\/R.dex": {
@@ -2379,32 +2285,12 @@
 		"oAP": "\/platforms\/android\/app\/src\/main\/AndroidManifest.xml",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/nativeapiprovider-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/nativeapiprovider-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/nativeapiprovider.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/nativeapiprovider-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/promptbasednativeapi-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/android\/promptbasednativeapi-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2419,32 +2305,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/exec-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/exec-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/exec.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/exec-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/platform-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/platform-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2459,32 +2325,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/plugin\/android\/app-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/plugin\/android\/app-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/plugin\/android\/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-js-src\/plugin\/android\/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/cordova-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2600,8 +2446,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/img\/logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2648,16 +2494,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/tinyshell.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -3189,13 +3025,6 @@
 		"oAP": "\/platforms\/android\/app\/src\/main\/java\/com\/algonquin\/mad9022\/giftr\/MainActivity.java",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.java": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/labs\/keyboard\/Keyboard.java",
-		"oF": 0
-		},
 	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.java": {
 		"cB": 0,
 		"ft": 8192,
@@ -3209,8 +3038,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-land-hdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3231,8 +3060,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-land-mdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3242,8 +3071,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-land-xhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3253,8 +3082,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-land-xxhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3264,8 +3093,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-land-xxxhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3275,8 +3104,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-port-hdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3308,8 +3137,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-port-xhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3319,8 +3148,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-port-xxhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3330,8 +3159,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-port-xxxhdpi\/screen.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3341,8 +3170,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-hdpi\/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3363,8 +3192,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-mdpi\/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3385,8 +3214,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-xxhdpi\/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3396,8 +3225,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-xxxhdpi\/icon.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3422,199 +3251,454 @@
 		"oAP": "\/platforms\/android\/build.gradle",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-24-49-199.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-30-16-201.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-24-49-199-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-30-16-201-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-24-49-199.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-30-16-201.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-24-49-199.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-30-16-201.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-25-07-523.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-40-40-110.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-25-07-523-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-40-40-110-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-25-07-523.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-40-40-110.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-25-07-523.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-40-40-110.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-49-29-758.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-01-933.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-49-29-758-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-01-933-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-49-29-758.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-01-933.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-49-29-758.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-01-933.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-50-03-106.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-45-184.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-50-03-106-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-45-184-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-50-03-106.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-45-184.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-50-03-106.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-41-45-184.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-19-024.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-19-343.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-19-024-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-19-343-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-19-024.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-19-343.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-19-024.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-19-343.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-34-995.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-52-276.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-34-995-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-52-276-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-34-995.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-52-276.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-17-23-51-34-995.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-49-52-276.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-16-23-370.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-52-44-950.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-16-23-370-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-52-44-950-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-16-23-370.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-52-44-950.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-16-23-370.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-52-44-950.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-18-59-108.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-56-28-832.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-18-59-108-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-56-28-832-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-18-59-108.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-56-28-832.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-18-59-108.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-56-28-832.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-26-40-176.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-58-40-372.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-26-40-176-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-58-40-372-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-26-40-176.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-58-40-372.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-26-40-176.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-16-58-40-372.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-29-15-433.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-01-07-817.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-29-15-433-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-01-07-817-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-29-15-433.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-01-07-817.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-29-15-433.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-01-07-817.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-30-59-545.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-04-21-236.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-30-59-545-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-04-21-236-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-30-59-545.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-04-21-236.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-30-59-545.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-04-21-236.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-31-56-705.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-05-03-069.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-31-56-705-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-05-03-069-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-31-56-705.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-05-03-069.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-31-56-705.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-05-03-069.rawproto",
 		"oF": 0
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-33-50-845.json": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-23-54-664.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-33-50-845-min.json",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-23-54-664-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-33-50-845.rawproto": {
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-23-54-664.rawproto": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-10-33-50-845.rawproto",
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-23-54-664.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-25-144.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-25-144-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-25-144.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-25-144.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-55-918.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-55-918-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-55-918.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-26-55-918.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-27-32-570.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-27-32-570-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-27-32-570.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-27-32-570.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-01-109.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-01-109-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-01-109.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-01-109.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-27-841.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-27-841-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-27-841.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-28-27-841.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-20-092.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-20-092-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-20-092.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-20-092.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-55-317.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-55-317-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-55-317.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-30-55-317.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-31-17-089.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-31-17-089-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-31-17-089.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-31-17-089.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-12-616.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-12-616-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-12-616.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-12-616.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-51-066.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-51-066-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-51-066.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-34-51-066.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-36-49-393.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-36-49-393-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-36-49-393.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-36-49-393.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-44-08-258.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-44-08-258-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-44-08-258.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-44-08-258.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-48-56-659.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-48-56-659-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-48-56-659.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-48-56-659.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-25-834.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-25-834-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-25-834.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-25-834.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-57-884.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-57-884-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-57-884.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-49-57-884.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-51-07-539.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-51-07-539-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-51-07-539.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-51-07-539.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-54-41-521.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-54-41-521-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-54-41-521.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-18-17-54-41-521.rawproto",
 		"oF": 0
 		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
@@ -3630,16 +3714,6 @@
 		"oA": 0,
 		"oAP": "\/platforms\/android\/cordova\/android_sdk_version.bat",
 		"oF": 0
-		},
-	"\/platforms\/android\/cordova\/Api-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/cordova\/Api-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/platforms\/android\/cordova\/Api.js": {
 		"ft": 64,
@@ -5160,32 +5234,12 @@
 		"oAP": "\/platforms\/android\/gradlew.bat",
 		"oF": 0
 		},
-	"\/platforms\/android\/platform_www\/cordova-js-src\/android\/nativeapiprovider-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/android\/nativeapiprovider-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/platform_www\/cordova-js-src\/android\/nativeapiprovider.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/android\/nativeapiprovider-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/platform_www\/cordova-js-src\/android\/promptbasednativeapi-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/android\/promptbasednativeapi-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -5200,32 +5254,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/platform_www\/cordova-js-src\/exec-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/exec-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/platform_www\/cordova-js-src\/exec.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/exec-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/platform_www\/cordova-js-src\/platform-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/platform-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -5240,32 +5274,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/platform_www\/cordova-js-src\/plugin\/android\/app-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/plugin\/android\/app-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/platform_www\/cordova-js-src\/plugin\/android\/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/platform_www\/cordova-js-src\/plugin\/android\/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/platform_www\/cordova-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/cordova-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -5296,16 +5310,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/platform_www\/cordova_plugins-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/platform_www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/platform_www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -5868,6 +5872,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova_plugins-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova_plugins-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova_plugins.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5933,16 +5947,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5950,16 +5954,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/tinyshell.min-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/tinyshell.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -6001,16 +5995,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/materialize-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/materialize-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/materialize.js": {
 		"ft": 64,
 		"ma": 0,
@@ -6031,32 +6015,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/tinyshell.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7473,20 +7437,6 @@
 		"oAP": "\/platforms\/ios\/Giftr\/main.m",
 		"oF": 0
 		},
-	"\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-keyboard\/CDVKeyboard.h": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-keyboard\/CDVKeyboard.h",
-		"oF": 0
-		},
-	"\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-keyboard\/CDVKeyboard.m": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-keyboard\/CDVKeyboard.m",
-		"oF": 0
-		},
 	"\/platforms\/ios\/Giftr\/Plugins\/README": {
 		"cB": 0,
 		"ft": 8192,
@@ -7552,22 +7502,22 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/ios\/platform_www\/cordova_plugins-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/platform_www\/cordova_plugins-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/ios\/platform_www\/cordova_plugins.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/platform_www\/cordova_plugins-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/ios\/platform_www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/platform_www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7632,6 +7582,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/cordova-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/www\/cordova_plugins-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/cordova_plugins-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7701,16 +7661,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/platforms\/ios\/www\/css\/platform-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/www\/css\/platform-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/platforms\/ios\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -7718,16 +7668,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/css\/platform-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/platforms\/ios\/www\/css\/tinyshell.min-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/www\/css\/tinyshell.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -7769,16 +7709,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/ios\/www\/js\/materialize-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/www\/js\/materialize-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/ios\/www\/js\/materialize.js": {
 		"ft": 64,
 		"ma": 0,
@@ -7799,32 +7729,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/ios\/www\/js\/tinyshell.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/www\/js\/tinyshell.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/ios\/www\/js\/tinyshell.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/js\/tinyshell.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/ios\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/www\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7836,70 +7746,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/plugins\/cordova-plugin-keyboard\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/plugins\/cordova-plugin-keyboard\/plugin.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/plugin.xml",
-		"oF": 0
-		},
-	"\/plugins\/cordova-plugin-keyboard\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/plugins\/cordova-plugin-keyboard\/src\/android\/Keyboard.java": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/src\/android\/Keyboard.java",
-		"oF": 0
-		},
-	"\/plugins\/cordova-plugin-keyboard\/src\/ios\/CDVKeyboard.h": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/src\/ios\/CDVKeyboard.h",
-		"oF": 0
-		},
-	"\/plugins\/cordova-plugin-keyboard\/src\/ios\/CDVKeyboard.m": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/src\/ios\/CDVKeyboard.m",
-		"oF": 0
-		},
-	"\/plugins\/cordova-plugin-keyboard\/www\/keyboard.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/plugins\/cordova-plugin-keyboard\/www\/keyboard-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/plugins\/cordova-plugin-whitelist\/CONTRIBUTING.md": {
 		"cB": 0,
@@ -8800,9 +8646,19 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/www\/js\/materialize-min.js",
-		"oF": 1,
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/www\/js\/platform-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

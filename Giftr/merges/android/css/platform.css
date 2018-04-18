@@ -3835,7 +3835,7 @@ small {
     display: inline-block;
     text-align: center;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 40px; }
 
 button.btn-floating {
@@ -3955,7 +3955,7 @@ button.btn-floating {
   font-size: 15px;
   padding: 0 28px; }
   .btn-large i {
-    font-size: 1.3rem; }
+    font-size: 1.6rem; }
 
 .btn-small {
   height: 32.4px;
@@ -6518,9 +6518,6 @@ h1 {
 
 input {
   font-size: 2rem; }
-
-input:required:invalid + label {
-  transform: translateY(12px); }
 
 input[type=text]:not(.browser-default) {
   font-size: 1.5rem; }
