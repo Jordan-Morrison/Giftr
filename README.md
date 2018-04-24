@@ -69,18 +69,17 @@ server.addPerson(name, dateOfBirth);
 }
 ```
 ### Edit a person for the current user
-This function is currently in **beta**. A user can be edited however gifts aren't transferring quite yet. *(Fetch doesn't seem to like 'PUT')*
 ```javascript
 server.editPerson(personID, name, dateOfBirth);
 // Will return a JSON object such as:
 {
-  "code": 201,
+  "code": 200,
   "data": {
-    "person_id": "37",
-    "person_name": "New Name",
-    "person_dob": "1994-06-09"
+    "person_id": "35",
+    "person_name": "Coolio",
+    "person_dob": "1995-05-05"
   },
-  "message": "Person Added"
+  "message": "Person Edited"
 }
 ```
 ### Delete a person for the current user
@@ -169,4 +168,4 @@ server.deleteGift(giftID);
 ```
 
 ### Edit a gift for a person, for the current user
-There is no app requirement to be able to edit gifts, so I have left this out for now. Can be added later if necessary. This function would also use **PUT** so we'd need to get that working first.
+There is no app requirement to be able to edit gifts, so I have left this out for now. Can be added later if necessary.

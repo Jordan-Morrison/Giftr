@@ -67,40 +67,18 @@ const server = {
         }
     },
 
-    // editPerson: async function(personID, name, dateOfBirth){
-    //     try {
-    //         let response = await server.connect(`people.php/${personID}`, "PUT", server.token, `person_name=${name}&person_dob=${dateOfBirth}`);
-    //         console.log("Edit Person", response);
-    //         return response;
-    //     } catch (e) {
-    //         console.log("ERROR: " + e);
-    //     }
-    // },
-
-    editPerson: async function(personId, name, dateOfBirth){
-        try{
-            let response = await server.connect(`people.php/${personId}`, "DELETE", server.token, null);
-            console.log("Delete Person (editing)", response);
-            try {
-                response = await server.connect(`people`, "POST", server.token, `person_name=${name}&person_dob=${dateOfBirth}`);
-                console.log("Add Person", response);
-                return response;
-            } catch (e) {
-                console.log("ERROR: " + e);
-            }
-        } catch (e){
+    editPerson: async function(personID, name, dateOfBirth){
+        let formData = new FormData();
+        formData.person_name = name;
+        formData.person_dob = dateOfBirth;
+        try {
+            let response = await server.connect(`people.php/${personID}`, "PUT", server.token, JSON.stringify(formData));
+            console.log("Edit Person", response);
+            return response;
+        } catch (e) {
             console.log("ERROR: " + e);
         }
     },
-
-    // editPerson: async function(personId, name, dateOfBirth){
-    //     let gifts = await server.getGifts(personId);
-    //     let response = await server.deletePerson(personId);
-    //     let newPersonId = await server.addPerson(name, dateOfBirth);
-    //     gifts.data.forEach (async gift => {
-    //         response = await server.addGift(newPersonId, gift.gift_title, gift.gift_url, gift.gift_price, gift.gift_store)
-    //     });
-    // },
 
     deletePerson: async function(personID){
         try {
@@ -265,5 +243,21 @@ const server = {
     //             }
     //         }, 10000);
             
+    //     }
+    // },
+    
+    // editPerson: async function(personId, name, dateOfBirth){
+    //     try{
+    //         let response = await server.connect(`people.php/${personId}`, "DELETE", server.token, null);
+    //         console.log("Delete Person (editing)", response);
+    //         try {
+    //             response = await server.connect(`people`, "POST", server.token, `person_name=${name}&person_dob=${dateOfBirth}`);
+    //             console.log("Add Person", response);
+    //             return response;
+    //         } catch (e) {
+    //             console.log("ERROR: " + e);
+    //         }
+    //     } catch (e){
+    //         console.log("ERROR: " + e);
     //     }
     // },
