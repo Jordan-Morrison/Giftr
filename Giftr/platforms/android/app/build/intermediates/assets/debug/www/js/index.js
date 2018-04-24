@@ -22,6 +22,7 @@ const app = {
         document.getElementById("peopleFormCancelButton").addEventListener("click",function(){
             app.clearPeopleForm();
             app.navigate("peopleForm", "peopleScreen");
+            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Add person form (saved) to people list 
@@ -36,6 +37,7 @@ const app = {
             app.clearPeopleForm();
             app.generatePeopleList();
             app.navigate("peopleForm", "peopleScreen");
+            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Gift list to add new gift screen
@@ -88,12 +90,9 @@ const app = {
                 //Update people form screen
                 app.autoFillPeopleForm(this.parentElement.getAttribute("data-id"));
                 document.getElementById("peopleFormSaveButton").setAttribute("data-id", this.parentElement.getAttribute("data-id"));
-                
+                // Change page title to match edit context
+                document.getElementById("peopleFormTitle").innerHTML = "Edit Person";
                 app.navigate("peopleScreen", "peopleForm");
-                // If platform is Android, add animations
-                if(app.platformConstants.platform === 'Android'){
-                    app.platformConstants.giftAddAnimate();
-                }
             });
         });
     },
