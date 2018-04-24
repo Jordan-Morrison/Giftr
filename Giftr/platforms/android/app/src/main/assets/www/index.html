@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com *; style-src 'self' 'unsafe-inline' *; media-src *; img-src 'self' data: content:;">
+    <!-- <meta http-equiv=“Content-Security-Policy” content=“default-src * ‘self’ data: gap: ‘unsafe-eval’ ws: ; style-src * ‘self’ ‘unsafe-inline’; media-src *; img-src* ‘self’ data: content:;“>    <meta name="format-detection" content="telephone=no"> -->
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -37,37 +37,37 @@
         <section class="content">
             <ul id='peopleList' class="list-view">
                 <li class="list-item">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
-                    <p>Full Name</p>
+                    <p class="peopleListName">Full Name</p>
                     <p>Birthday</p>
                 </li>
                 <li class="list-item">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
+                    <span class="action-right icon arrow_right" data-id=""></span>
+                    <p>Full Name</p>
+                    <p>Birthday</p>
+                </li>
+                <li class="list-item person">
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
                 <li class="list-item person">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
                 <li class="list-item person">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
                 </li>
                 <li class="list-item person">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
-                    <span class="action-right icon arrow_right"></span>
-                    <p>Full Name</p>
-                    <p>Birthday</p>
-                </li>
-                <li class="list-item person">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon arrow_right"></span>
                     <p>Full Name</p>
                     <p>Birthday</p>
@@ -110,7 +110,7 @@
                 </p>
                 <div class="form-row input-field">
                     <input type="button" id="peopleFormCancelButton" class="btn-small" value="cancel" />
-                    <input type="submit" id="peopleFormSaveButton" class="btn-small" value="submit" />
+                    <input type="submit" id="peopleFormSaveButton" class="btn-small" data-id="null" value="submit" />
                 </div>
             </form>
         </section>
@@ -129,7 +129,7 @@
                 - On the gift page there will be a button for adding a new idea to the list.
                 - Way to navigate back to the person list page
         -->
-    <div id="giftScreen" class="page">
+    <div id="giftScreen" class="page" data-id="">
         <!-- iOS Nav Bar -->
         <nav class="ios bar-half top">
             <a href="#" class="link left icon arrow_left giftScreenBackButton">Back</a>
@@ -141,9 +141,9 @@
             <h1 id="page-title">Gifts</h1>
         </header>
         <section class="content">
-            <ul class="list-view">
+            <ul id="giftList" class="list-view">
                 <li class="list-item">
-                    <img src="img/logo.png" alt="cordova logo" class="avatar" />
+                    <img src="img/avatar.png" alt="cordova logo" class="avatar" />
                     <span class="action-right icon delete"></span>
                     <p>Gift Name</p>
                     <p>Price</p>
@@ -171,7 +171,7 @@
             <h1 id="page-title">Add Gift</h1>
         </header>
         <section class="content">
-            <form onaction="doNothing()">
+            <form>
                 <p class="form-row">
                     <input type="text" id="giftIdea" required/>
                     <label for="giftIdea">Gift Idea</label>
@@ -196,11 +196,11 @@
         </section>
     </div>
 
-    <script>doNothing();</script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/tinyshell.min.js?v=1"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/serverConnection.js"></script>
     <script type="text/javascript" src="js/platform.js"></script>
 </body>
 

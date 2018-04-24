@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
     }
   },
   "dependent_plugins": {}
