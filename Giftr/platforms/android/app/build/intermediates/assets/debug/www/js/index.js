@@ -1,11 +1,12 @@
 const app = {
 
-    main: function(){
-        alert("alerts are working");
+    main: function(){setTimeout(() => {
+        let uuid = device.uuid;
         app.addConstantEventListeners();
-        // server.init("http://localhost/giftr_api-master/giftr/api", "123456789");
-        server.init("https://dall0078.edumedia.ca/mad9023/giftr/api", "123456789");
+        server.init("http://dall0078.edumedia.ca/mad9023/giftr/api", `${uuid}`);
+        // server.init("https://dall0078.edumedia.ca/mad9023/giftr/api", device.uuid);
         app.generatePeopleList();
+    }, 200);
     },
 
     //Constant listeners are mainly navigation buttons (always stay the same throughout session)
@@ -87,7 +88,7 @@ const app = {
                 //Update people form screen
                 app.autoFillPeopleForm(this.parentElement.getAttribute("data-id"));
                 document.getElementById("peopleFormSaveButton").setAttribute("data-id", this.parentElement.getAttribute("data-id"));
-
+                
                 app.navigate("peopleScreen", "peopleForm");
                 // If platform is Android, add animations
                 if(app.platformConstants.platform === 'Android'){

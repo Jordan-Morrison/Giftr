@@ -72,6 +72,14 @@ input {
     font-size: 2rem;
 }
 
+input:required:focus+label {
+    transform: translateY(-3.8rem)
+}
+
+input:required:invalid+label {
+    line-height: 1rem;
+}
+
 input[type=text]:not(.browser-default) {
     font-size: 1.5rem;
 }
