@@ -137,13 +137,14 @@ const server = {
                 };
             }
             else{
-                options.headers["Content-type"] = "application/x-www-form-urlencoded; charset=UTF-8";
+                options.headers["Content-type"] = "application/x-www-form-urlencoded;";
             }
             options.body = parameters;
         }
         // await response of fetch call
         console.log(`${server.baseURL}/${resource}`, options);
         let response = await fetch(`${server.baseURL}/${resource}`, options);
+        console.log(response);
         // only proceed once promise is resolved
         let data = await response.json();
         // only proceed once second promise is resolved

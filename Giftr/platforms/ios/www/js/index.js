@@ -1,10 +1,8 @@
 const app = {
 
     main: function(){setTimeout(() => {
-        let uuid = device.uuid;
         app.addConstantEventListeners();
-        server.init("http://dall0078.edumedia.ca/mad9023/giftr/api", `${uuid}`);
-        // server.init("https://dall0078.edumedia.ca/mad9023/giftr/api", device.uuid);
+        server.init("https://dall0078.edumedia.ca/mad9023/giftr/api", device.uuid);
         app.generatePeopleList();
     }, 200);
     },
@@ -20,8 +18,12 @@ const app = {
 
         //Add person form (cancelled) to people list 
         document.getElementById("peopleFormCancelButton").addEventListener("click",function(){
+            if(document.getElementById('peopleFormSaveButton').getAttribute('data-id') !== ""){
+                document.getElementById('peopleFormSaveButton').getAttribute('data-id') == ""
+            }
             app.clearPeopleForm();
             app.navigate("peopleForm", "peopleScreen");
+            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Add person form (saved) to people list 
@@ -36,6 +38,7 @@ const app = {
             app.clearPeopleForm();
             app.generatePeopleList();
             app.navigate("peopleForm", "peopleScreen");
+            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Gift list to add new gift screen
@@ -62,9 +65,9 @@ const app = {
         document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
             await server.addGift(document.getElementById("giftScreen").getAttribute("data-id"), document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
-            // app.generateGiftList();
-            // app.clearGiftForm();
-            // app.navigate("giftForm", "giftScreen");
+            app.generateGiftList();
+            app.clearGiftForm();
+            app.navigate("giftForm", "giftScreen");
         });
     },
 
@@ -88,12 +91,9 @@ const app = {
                 //Update people form screen
                 app.autoFillPeopleForm(this.parentElement.getAttribute("data-id"));
                 document.getElementById("peopleFormSaveButton").setAttribute("data-id", this.parentElement.getAttribute("data-id"));
-                
+                // Change page title to match edit context
+                document.getElementById("peopleFormTitle").innerHTML = "Edit Person";
                 app.navigate("peopleScreen", "peopleForm");
-                // If platform is Android, add animations
-                if(app.platformConstants.platform === 'Android'){
-                    app.platformConstants.giftAddAnimate();
-                }
             });
         });
     },
@@ -129,6 +129,7 @@ const app = {
     generatePeopleList: async function(){
         let response = await server.getPeopleList();
         let output = "";
+        document.getElementById("peopleList").innerHTML = output;
         response.data.forEach(person => {
             output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
         });
