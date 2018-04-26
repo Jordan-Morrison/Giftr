@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv=“Content-Security-Policy” content=“default-src ‘self’ ‘unsafe-inline’ data: gap: https://ssl.gstatic.com ‘unsafe-eval’; style-src ‘self’ ‘unsafe-inline’; media-src *;script-src* ;img-src * ‘self’ * data: content:; connect-src * blob: cdvphotolibrary:;“>    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/tinyshell.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/platform.css">
+    <title>Giftr</title>
+</head>
+
+<body>
+
+    <!-- 
+            SAME ON BOTH:
+            - List of People and their birthdays
+            - Each person has arrow to navigate to gift page
+            - Clicking on person's name will allow you to edit that person
+            ANDROID:
+            - Floating button to add new person
+            IOS:
+            - Button to add person in nav bar 
+        -->
+    <div id="peopleScreen" class="page active">
+        <!-- iOS Navbar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link right rightOnly icon add addPersonButton">Add</a>
+        </nav>
+        <!-- Android Header/Navbar -->
+        <header class="android bar top">
+            <h1 class="page-title">People</h1>
+        </header>
+        <section class="content">
+            <ul id='peopleList' class="list-view">
+                
+            </ul>
+
+                <!-- Android button -->
+                <div class="android fixed-action-btn addPersonButton">
+                    <a class="btn-floating btn-large waves-effect waves-light red scale-transition scale-out">
+                        <i id="add-person-button-android" class="material-icons addPersonButton">add</i>
+                    </a>
+                </div>
+        </section>
+    </div>
+
+    <!--
+            SAME ON BOTH:
+                - Form to enter name and birthday
+                - When adding new person form should start empty
+                - When editing an existing person then the details for that person should be preloaded in the form elements
+                - Saving the person's information should return the user to the person list page
+                - Way to save the person and go back to the person list page
+                - Way to cancel adding a person and go back to person list page
+                - Way to save the person and go back to the person list page
+                - Way to cancel adding a person and go back to person list page
+        -->
+    <div id="peopleForm" class="page">
+        <header class="android bar top">
+            <h1 id="peopleFormTitle" class="page-title">Add Person</h1>
+        </header>
+        <section id="peopleFormSection" class="content">
+            <form>
+                <p class="form-row">
+                    <input type="text" id="name" required/>
+                    <label for="name">Name</label>
+                </p>
+                <p class="form-row">
+                    <label for="birthday">Birthday: </label>
+                    <input type="date" id="birthday" required/>
+                </p>
+                <div class="form-row input-field">
+                    <input type="submit" id="peopleFormSaveButton" class="btn-small" data-id="" value="submit" />
+                    <input type="button" id="peopleFormCancelButton" class="btn-small" value="cancel" />
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!--
+            SAME ON BOTH:
+                - The list of gifts will display the idea and then optionally the other three things about the idea.
+                - If any of the other fields are empty then they are not displayed in the list.
+                - There will also be a delete button for each idea so it can be removed.
+                - If a link was included then it should be displayed as an actual link that the user can click on to visit that website.
+            ANDROID:
+                - On the gift page there will be a button for adding a new idea to the list.
+                - Way to navigate back to the person list page
+            IOS:
+                - On the gift page there will be a button for adding a new idea to the list.
+                - Way to navigate back to the person list page
+        -->
+    <div id="giftScreen" class="page" data-id="">
+        <!-- iOS Nav Bar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link left icon arrow_left giftScreenBackButton">Back</a>
+            <a href="#" class="link right icon add addGiftButton">Add</a>
+        </nav>
+        <!-- Android Header/Nav Bar -->
+        <header class="android bar top">
+            <span id="gift-back-button-android" class='left-button back giftScreenBackButton'>Back</span>
+            <h1 class="page-title">Gifts</h1>
+        </header>
+        <section class="content">
+            <ul id="giftList" class="list-view">
+
+            </ul>
+            <!-- Android Button -->
+            <div class="android fixed-action-btn addGiftButton">
+                <a class="btn-floating btn-large waves-effect waves-light red scale-out">
+                    <i id="add-gift-button-android" class="material-icons addGiftButton">add</i>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!--
+            SAME ON BOTH:
+                - The fourth page, for adding gifts, will ask for the idea, the location where it can be bought, a URL where it can be found online, and a price.
+                - Way to save the gift and go back to gift list page
+                - Way to cancel adding a gift and go back to gift list page
+                - Way to save the gift and go back to gift list page
+                - Way to cancel adding a gift and go back to gift list page
+        -->
+    <div id="giftForm" class="page">
+        <header class="android bar top">
+            <h1 class="page-title">Add Gift</h1>
+        </header>
+        <section id="giftFormSection" class="content">
+            <form>
+                <p class="form-row">
+                    <input type="text" id="giftIdea" required/>
+                    <label for="giftIdea">Gift Idea</label>
+                </p>
+                <p class="form-row">
+                    <input type="number" id="giftPrice" min="0" step="0.01" required/>
+                    <label for="giftPrice">Price</label>
+                </p>
+                <p class="form-row">
+                    <input type="text" id="giftStore" required/>
+                    <label for="giftStore">Store</label>
+                </p>
+                <p class="form-row">
+                    <input type="text" id="giftUrl" required/>
+                    <label for="giftUrl">Gift URL</label>
+                </p>
+                <div class="form-row buttons">
+                    <input type="submit" id="giftFormSaveButton" class="btn-small" value="save" />
+                    <input type="button" id="giftFormCancelButton" class="btn-small" value="cancel" />
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/tinyshell.min.js?v=1"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/serverConnection.js"></script>
+    <script type="text/javascript" src="js/platform.js"></script>
+</body>
+
+</html>

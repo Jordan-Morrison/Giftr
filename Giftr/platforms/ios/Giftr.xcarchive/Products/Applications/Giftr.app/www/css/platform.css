@@ -1,0 +1,26 @@
+/* Hides all of the android elements */
+.android{
+    display: none;
+}
+
+/* Sets the colour for ios links */
+.bar-half a{
+    color: rgb(50,124,246);
+}
+
+/* Tinyshell has a glitch where if you only have one item it goes to the left, so fixing that here */
+.rightOnly{
+    position: absolute;
+    right: 0;
+}
+
+/* Fix Fields Being pushed to side of screen */
+#giftFormSection form .form-row input{
+    margin-right: 15%;
+    width: 84vw;
+}
+
+#peopleFormSection form .form-row input{
+    margin-right: 15%;
+    width: 84vw;
+}

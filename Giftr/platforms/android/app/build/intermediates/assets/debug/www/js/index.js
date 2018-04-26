@@ -34,6 +34,7 @@ const app = {
             }
             else{
                 await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
+
             }
             app.clearPeopleForm();
             app.generatePeopleList();
@@ -64,10 +65,12 @@ const app = {
         //Add gift form (saved) to gift list 
         document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
-            await server.addGift(document.getElementById("giftScreen").getAttribute("data-id"), document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
-            app.generateGiftList();
-            app.clearGiftForm();
+            let personId = document.getElementById("giftScreen").getAttribute("data-id");
+            await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
+            // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;
             app.navigate("giftForm", "giftScreen");
+            app.generateGiftList(personId);
+            app.clearGiftForm();
         });
     },
 
@@ -89,10 +92,22 @@ const app = {
         document.querySelectorAll("#peopleList .list-item .peopleListName").forEach(element => {
             element.addEventListener("click", function(){
                 //Update people form screen
-                app.autoFillPeopleForm(this.parentElement.getAttribute("data-id"));
-                document.getElementById("peopleFormSaveButton").setAttribute("data-id", this.parentElement.getAttribute("data-id"));
+                let dataId = this.parentElement.getAttribute("data-id");
+                console.log(dataId);
+                app.autoFillPeopleForm(dataId);
+                document.getElementById("peopleFormSaveButton").setAttribute("data-id", dataId);
                 // Change page title to match edit context
                 document.getElementById("peopleFormTitle").innerHTML = "Edit Person";
+                let deletePersonButton = document.createElement("span");
+                deletePersonButton.classList.add("action-right", "icon", "delete");
+                deletePersonButton.setAttribute("id", "deletePersonButton");
+                deletePersonButton.setAttribute("data-id", dataId);
+                document.getElementById("peopleFormHeader").appendChild(deletePersonButton);
+                deletePersonButton.addEventListener("click", function(){
+                    server.deletePerson(dataId);
+                    app.generatePeopleList();
+                    app.navigate("peopleForm", "peopleScreen");
+                });
                 app.navigate("peopleScreen", "peopleForm");
             });
         });
@@ -117,6 +132,10 @@ const app = {
         document.getElementById("peopleFormSaveButton").setAttribute("data-id", "");
         document.getElementById("name").value = "";
         document.getElementById("birthday").value = "";
+        document.getElementById("peopleForm")
+        if(document.getElementById("deletePersonButton")){
+            document.getElementById("deletePersonButton").remove();
+        }
     },
 
     clearGiftForm: function(){

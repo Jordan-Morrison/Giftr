@@ -591,6 +591,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/merges\/ios\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/merges\/ios\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/merges\/ios\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2616,6 +2626,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/scss\/components\/_badges.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3150,12 +3170,66 @@
 		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/device\/Device.java",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.java",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.java",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.java": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/java\/org\/apache\/cordova\/whitelist\/WhitelistPlugin.java",
 		"oF": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 593,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 438,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-hdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/platforms\/android\/app\/src\/main\/res\/drawable-land-hdpi\/screen.png": {
 		"ft": 32768,
@@ -3223,6 +3297,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 427,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 438,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 328,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-mdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/platforms\/android\/app\/src\/main\/res\/drawable-port-hdpi\/screen.png": {
 		"ft": 32768,
 		"iS": 67702,
@@ -3283,6 +3390,72 @@
 		"iS": 299018,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-port-xxxhdpi\/screen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 727,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 744,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xhdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 1021,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 1038,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 681,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/res\/drawable-xxhdpi\/ic_action_remove.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5101,6 +5274,741 @@
 		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-13-36-19-463.rawproto",
 		"oF": 0
 		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-13-56-57-058.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-13-56-57-058-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-13-56-57-058.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-13-56-57-058.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-14-45-07-602.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-14-45-07-602-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-14-45-07-602.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-14-45-07-602.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-14-36-644.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-14-36-644-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-14-36-644.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-14-36-644.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-25-30-299.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-25-30-299-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-25-30-299.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-25-30-299.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-31-992.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-31-992-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-31-992.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-31-992.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-50-138.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-50-138-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-50-138.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-30-50-138.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-43-55-577.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-43-55-577-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-43-55-577.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-15-43-55-577.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-10-49-723.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-10-49-723-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-10-49-723.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-10-49-723.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-11-30-419.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-11-30-419-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-11-30-419.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-11-30-419.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-07-051.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-07-051-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-07-051.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-07-051.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-48-190.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-48-190-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-48-190.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-12-48-190.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-13-48-998.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-13-48-998-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-13-48-998.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-13-48-998.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-16-44-885.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-16-44-885-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-16-44-885.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-16-44-885.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-26-35-013.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-26-35-013-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-26-35-013.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-26-35-013.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-28-44-419.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-28-44-419-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-28-44-419.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-28-44-419.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-08-895.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-08-895-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-08-895.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-08-895.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-53-811.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-53-811-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-53-811.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-30-53-811.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-36-24-776.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-36-24-776-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-36-24-776.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-36-24-776.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-37-07-746.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-37-07-746-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-37-07-746.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-37-07-746.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-38-17-526.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-38-17-526-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-38-17-526.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-38-17-526.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-40-20-786.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-40-20-786-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-40-20-786.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-40-20-786.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-41-03-010.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-41-03-010-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-41-03-010.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-41-03-010.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-44-56-670.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-44-56-670-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-44-56-670.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-44-56-670.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-46-48-961.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-46-48-961-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-46-48-961.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-46-48-961.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-51-26-168.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-51-26-168-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-51-26-168.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-51-26-168.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-52-45-316.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-52-45-316-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-52-45-316.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-52-45-316.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-54-58-077.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-54-58-077-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-54-58-077.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-16-54-58-077.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-17-00-57-429.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-17-00-57-429-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-17-00-57-429.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-17-00-57-429.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-13-07-659.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-13-07-659-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-13-07-659.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-13-07-659.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-19-41-575.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-19-41-575-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-19-41-575.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-19-41-575.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-42-54-719.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-42-54-719-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-42-54-719.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-42-54-719.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-43-40-994.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-43-40-994-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-43-40-994.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-43-40-994.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-44-12-237.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-44-12-237-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-44-12-237.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-44-12-237.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-46-51-067.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-46-51-067-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-46-51-067.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-46-51-067.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-48-30-567.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-48-30-567-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-48-30-567.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-48-30-567.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-49-59-700.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-49-59-700-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-49-59-700.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-49-59-700.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-53-58-320.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-53-58-320-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-53-58-320.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-18-53-58-320.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-01-50-961.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-01-50-961-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-01-50-961.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-01-50-961.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-03-37-101.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-03-37-101-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-03-37-101.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-03-37-101.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-00-635.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-00-635-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-00-635.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-00-635.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-09-180.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-09-180-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-09-180.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-06-09-180.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-07-49-193.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-07-49-193-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-07-49-193.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-07-49-193.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-19-849.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-19-849-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-19-849.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-19-849.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-59-126.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-59-126-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-59-126.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-08-59-126.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-27-27-927.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-27-27-927-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-27-27-927.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-27-27-927.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-28-52-108.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-28-52-108-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-28-52-108.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-28-52-108.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-30-35-901.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-30-35-901-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-30-35-901.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-30-35-901.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-32-18-155.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-32-18-155-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-32-18-155.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-32-18-155.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-33-40-107.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-33-40-107-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-33-40-107.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-33-40-107.rawproto",
+		"oF": 0
+		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
 		"cB": 0,
 		"ft": 8192,
@@ -6724,6 +7632,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/android\/platform_www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/platform_www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/android\/project.properties": {
 		"cB": 0,
 		"ft": 8192,
@@ -6750,6 +7668,765 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/.gitignore",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/DistributionSummary.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/DistributionSummary.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/ExportOptions.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/ExportOptions.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app.dSYM\/Contents\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app.dSYM\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/_CodeSignature\/CodeResources": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/_CodeSignature\/CodeResources",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29.png": {
+		"ft": 32768,
+		"iS": 3349,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@2x.png": {
+		"ft": 32768,
+		"iS": 6585,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 6585,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@3x.png": {
+		"ft": 32768,
+		"iS": 9082,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29~ipad.png": {
+		"ft": 32768,
+		"iS": 3349,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon29x29~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@2x.png": {
+		"ft": 32768,
+		"iS": 8883,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 8883,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@3x.png": {
+		"ft": 32768,
+		"iS": 14152,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40~ipad.png": {
+		"ft": 32768,
+		"iS": 4450,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon40x40~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon50x50@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 11331,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon50x50@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon50x50~ipad.png": {
+		"ft": 32768,
+		"iS": 5557,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon50x50~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon57x57.png": {
+		"ft": 32768,
+		"iS": 5977,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon57x57@2x.png": {
+		"ft": 32768,
+		"iS": 13012,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon57x57@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon60x60@2x.png": {
+		"ft": 32768,
+		"iS": 14152,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon60x60@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon60x60@3x.png": {
+		"ft": 32768,
+		"iS": 33390,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon60x60@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon72x72@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 17926,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon72x72@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon72x72~ipad.png": {
+		"ft": 32768,
+		"iS": 8045,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon72x72~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon76x76@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 16629,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon76x76@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon76x76~ipad.png": {
+		"ft": 32768,
+		"iS": 8463,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon76x76~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 28234,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/Assets.car": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/Assets.car",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/config.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/config.xml",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/embedded.mobileprovision": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/embedded.mobileprovision",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-568h@2x.png": {
+		"ft": 32768,
+		"iS": 61990,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-568h@2x.png": {
+		"ft": 32768,
+		"iS": 61990,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 161722,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 76512,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 154923,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 74890,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700@2x.png": {
+		"ft": 32768,
+		"iS": 55319,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-700@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-667h@2x.png": {
+		"ft": 32768,
+		"iS": 52100,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-667h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png": {
+		"ft": 32768,
+		"iS": 63597,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png": {
+		"ft": 32768,
+		"iS": 62285,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 161722,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 76512,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 154923,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 74890,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage.png": {
+		"ft": 32768,
+		"iS": 20021,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage@2x.png": {
+		"ft": 32768,
+		"iS": 55319,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/LaunchImage@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/MainViewController.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/MainViewController.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/PkgInfo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/PkgInfo",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/exec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/exec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova_plugins-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova_plugins-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova_plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/cordova_plugins-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/css\/tinyshell.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/img\/avatar.png": {
+		"ft": 32768,
+		"iS": 5047,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/img\/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/img\/gift.png": {
+		"ft": 32768,
+		"iS": 11832,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/img\/gift.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/index.html",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/serverConnection.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/serverConnection-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/js\/tinyshell.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.app\/www\/plugins\/cordova-plugin-device\/www\/device.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.app\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/device\/Giftr.ipa": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Giftr.ipa",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/device\/Packaging.log": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/device\/Packaging.log",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist": {
@@ -7357,6 +9034,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -7462,6 +9149,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7627,6 +9324,76 @@
 		"oAP": "\/platforms\/ios\/build\/emulator\/libCordova.a",
 		"oF": 0
 		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.pch",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-awnvqqdawspneqdjeypwiegrysow\/CordovaLib_Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.pch",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-ctxinapvseeqtheruwyksjokgbpo\/CordovaLib_Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
 	"\/platforms\/ios\/build\/sharedpch\/CordovaLib_Prefix-gwdzplgpuugciwatgsnsgbzubfqa\/CordovaLib_Prefix.pch.d": {
 		"cB": 0,
 		"ft": 8192,
@@ -7695,6 +9462,76 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-aoubqylnwvdxpihgojaajxdgrjzs\/Giftr-Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.pch",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-bpcejubvkmsiriegdtwthvyefecb\/Giftr-Prefix.pch.pch.hash-criteria",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.d": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.d",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.data": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.data",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.dia": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.dia",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.pch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.pch",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.pch.hash-criteria": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/sharedpch\/Giftr-Prefix-euzzrzjrrqcejhaxvimijyauaczz\/Giftr-Prefix.pch.pch.hash-criteria",
 		"oF": 0
 		},
 	"\/platforms\/ios\/cordova\/Api.js": {
@@ -8427,6 +10264,13 @@
 		"oAP": "\/platforms\/ios\/CordovaLib\/CordovaLib.xcodeproj\/project.pbxproj",
 		"oF": 0
 		},
+	"\/platforms\/ios\/CordovaLib\/CordovaLib.xcodeproj\/xcuserdata\/jordanwillis.xcuserdatad\/xcschemes\/xcschememanagement.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/CordovaLib\/CordovaLib.xcodeproj\/xcuserdata\/jordanwillis.xcuserdatad\/xcschemes\/xcschememanagement.plist",
+		"oF": 0
+		},
 	"\/platforms\/ios\/CordovaLib\/CordovaLib_Prefix.pch": {
 		"cB": 0,
 		"ft": 8192,
@@ -8441,11 +10285,770 @@
 		"oAP": "\/platforms\/ios\/CordovaLib\/VERSION",
 		"oF": 0
 		},
+	"\/platforms\/ios\/exportOptions.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/exportOptions.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/_CodeSignature\/CodeResources": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/_CodeSignature\/CodeResources",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29.png": {
+		"ft": 32768,
+		"iS": 3349,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@2x.png": {
+		"ft": 32768,
+		"iS": 6585,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 6585,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@3x.png": {
+		"ft": 32768,
+		"iS": 9082,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29~ipad.png": {
+		"ft": 32768,
+		"iS": 3349,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon29x29~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@2x.png": {
+		"ft": 32768,
+		"iS": 8883,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 8883,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@3x.png": {
+		"ft": 32768,
+		"iS": 14152,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40~ipad.png": {
+		"ft": 32768,
+		"iS": 4450,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon40x40~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon50x50@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 11331,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon50x50@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon50x50~ipad.png": {
+		"ft": 32768,
+		"iS": 5557,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon50x50~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon57x57.png": {
+		"ft": 32768,
+		"iS": 5977,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon57x57@2x.png": {
+		"ft": 32768,
+		"iS": 13012,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon57x57@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon60x60@2x.png": {
+		"ft": 32768,
+		"iS": 14152,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon60x60@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon60x60@3x.png": {
+		"ft": 32768,
+		"iS": 33390,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon60x60@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon72x72@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 17926,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon72x72@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon72x72~ipad.png": {
+		"ft": 32768,
+		"iS": 8045,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon72x72~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon76x76@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 16629,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon76x76@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon76x76~ipad.png": {
+		"ft": 32768,
+		"iS": 8463,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon76x76~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 28234,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Assets.car": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Assets.car",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/config.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/config.xml",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/embedded.mobileprovision": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/embedded.mobileprovision",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-568h@2x.png": {
+		"ft": 32768,
+		"iS": 61990,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-568h@2x.png": {
+		"ft": 32768,
+		"iS": 61990,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-568h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 161722,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 76512,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 154923,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 74890,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700@2x.png": {
+		"ft": 32768,
+		"iS": 55319,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-700@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-667h@2x.png": {
+		"ft": 32768,
+		"iS": 52100,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-667h@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png": {
+		"ft": 32768,
+		"iS": 63597,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-Landscape-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png": {
+		"ft": 32768,
+		"iS": 62285,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-800-Portrait-736h@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 161722,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Landscape@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Landscape~ipad.png": {
+		"ft": 32768,
+		"iS": 76512,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Landscape~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png": {
+		"ft": 32768,
+		"iS": 154923,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Portrait@2x~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Portrait~ipad.png": {
+		"ft": 32768,
+		"iS": 74890,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage-Portrait~ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage.png": {
+		"ft": 32768,
+		"iS": 20021,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage@2x.png": {
+		"ft": 32768,
+		"iS": 55319,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/LaunchImage@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/MainViewController.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/MainViewController.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/PkgInfo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/PkgInfo",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/exec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/exec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/console-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-js-src\/plugin\/ios\/logger-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova_plugins-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova_plugins-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova_plugins.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/cordova_plugins-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/codepoints": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/codepoints",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ijmap",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.ttf",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/platform.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/platform-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/tinyshell.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/css\/tinyshell.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/img\/avatar.png": {
+		"ft": 32768,
+		"iS": 5047,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/img\/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/img\/gift.png": {
+		"ft": 32768,
+		"iS": 11832,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/img\/gift.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/index.html",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/platform.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/platform-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/serverConnection.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/serverConnection-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/tinyshell.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/js\/tinyshell.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/plugins\/cordova-plugin-device\/www\/device.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcarchive\/Products\/Applications\/Giftr.app\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/ios\/Giftr.xcodeproj\/project.pbxproj": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr.xcodeproj\/project.pbxproj",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/contents.xcworkspacedata",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/xcshareddata\/IDEWorkspaceChecks.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/xcshareddata\/IDEWorkspaceChecks.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/xcuserdata\/jordanwillis.xcuserdatad\/UserInterfaceState.xcuserstate": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcodeproj\/project.xcworkspace\/xcuserdata\/jordanwillis.xcuserdatad\/UserInterfaceState.xcuserstate",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr.xcodeproj\/xcuserdata\/jordanwillis.xcuserdatad\/xcschemes\/xcschememanagement.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr.xcodeproj\/xcuserdata\/jordanwillis.xcuserdatad\/xcschemes\/xcschememanagement.plist",
 		"oF": 0
 		},
 	"\/platforms\/ios\/Giftr.xcworkspace\/contents.xcworkspacedata": {
@@ -8892,6 +11495,20 @@
 		"oAP": "\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-device\/CDVDevice.m",
 		"oF": 0
 		},
+	"\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-inappbrowser\/CDVInAppBrowser.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-inappbrowser\/CDVInAppBrowser.h",
+		"oF": 0
+		},
+	"\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-inappbrowser\/CDVInAppBrowser.m": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Plugins\/cordova-plugin-inappbrowser\/CDVInAppBrowser.m",
+		"oF": 0
+		},
 	"\/platforms\/ios\/Giftr\/Plugins\/README": {
 		"cB": 0,
 		"ft": 8192,
@@ -8983,6 +11600,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/platform_www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/platform_www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/platform_www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -9126,6 +11753,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/platforms\/ios\/www\/css\/platform-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/platform-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/ios\/www\/css\/platform.css": {
 		"aP": 1,
 		"bl": 0,
@@ -9231,6 +11868,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -9735,6 +12382,713 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/de\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/de\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/de\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/de\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/es\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/es\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/es\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/es\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/fr\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/fr\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/fr\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/fr\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/it\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/it\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/it\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/it\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/ja\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/ja\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/ja\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/ja\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/ko\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/ko\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/ko\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/ko\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/pl\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/pl\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/pl\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/pl\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/ru\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/ru\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/zh\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/zh\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/doc\/zh\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/doc\/zh\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/LICENSE",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/NOTICE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/NOTICE",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/plugin.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/plugin.xml",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/RELEASENOTES.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/RELEASENOTES.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppBrowser.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppBrowser.java",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppBrowserDialog.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppBrowserDialog.java",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppChromeClient.java": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/InAppChromeClient.java",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 593,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 438,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-hdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 427,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 438,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 328,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-mdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 727,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 744,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 536,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xhdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_next_item.png": {
+		"ft": 32768,
+		"iS": 1021,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_next_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_previous_item.png": {
+		"ft": 32768,
+		"iS": 1038,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_previous_item.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_remove.png": {
+		"ft": 32768,
+		"iS": 681,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/android\/res\/drawable-xxhdpi\/ic_action_remove.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/browser\/InAppBrowserProxy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/browser\/InAppBrowserProxy-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/ios\/CDVInAppBrowser.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/ios\/CDVInAppBrowser.h",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/ios\/CDVInAppBrowser.m": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/ios\/CDVInAppBrowser.m",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/osx\/CDVInAppBrowser.h": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/osx\/CDVInAppBrowser.h",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/osx\/CDVInAppBrowser.m": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/osx\/CDVInAppBrowser.m",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/src\/windows\/InAppBrowserProxy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/src\/windows\/InAppBrowserProxy-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/.eslintrc.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/.eslintrc.yml",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/plugin.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/plugin.xml",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject.html",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/inject-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/local.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/local.html",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/local.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/local.pdf",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/video.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/resources\/video.html",
+		"oF": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/tests\/tests.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/tests\/tests-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/types\/index.d.ts": {
+		"cDF": 0,
+		"ft": 128,
+		"jxM": 0,
+		"ma": 0,
+		"mi": 0,
+		"moR": 0,
+		"moT": 2,
+		"nIA": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/types\/index.d.js",
+		"oF": 0,
+		"pCE": 0,
+		"rC": 0,
+		"sIE": 0,
+		"tEC": 0
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

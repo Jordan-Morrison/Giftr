@@ -39,7 +39,7 @@ const server = {
 
     getPeopleList: async function(){
         try {
-            let data = await server.connect(`people`, "GET", server.token, null);
+            let data = await server.connect(`people.php`, "GET", server.token, null);
             console.log("People List", data);
             return data;
         } catch (e) {
@@ -103,7 +103,7 @@ const server = {
     addGift: async function(personId, gift, url, price, store){
         try {
             let response = await server.connect(`gifts`, "POST", server.token, `person_id=${personId}&gift_title=${gift}&gift_url=${url}&gift_price=${price}&gift_store=${store}`);
-            console.log("Add Gift", response);
+            alert(response.message);
             return response;
         } catch (e) {
             console.log("ERROR: " + e);
