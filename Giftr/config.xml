@@ -19,6 +19,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <allow-intent href="*" />
+        <icon src="res/Material Icons_e7e9(0)_512.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -26,6 +27,6 @@
     </platform>
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="^4.5.4" />
 </widget>

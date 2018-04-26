@@ -25,7 +25,7 @@
     border-bottom: 1px solid black;
 }
 
-.list-item .action-right ~ .gift-url p{
+.list-item .gift-url{
     min-height: 2rem;
 }
 

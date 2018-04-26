@@ -2202,46 +2202,11 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_remove.png.flat",
 		"oF": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-hdpi_icon.png.flat": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-hdpi_icon.png.flat",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-ldpi_icon.png.flat": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-ldpi_icon.png.flat",
-		"oF": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-mdpi_icon.png.flat": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-mdpi_icon.png.flat",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xhdpi_icon.png.flat": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xhdpi_icon.png.flat",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxhdpi_icon.png.flat": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxhdpi_icon.png.flat",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxxhdpi_icon.png.flat": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-xxxhdpi_icon.png.flat",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/values_values.arsc.flat": {
@@ -3925,69 +3890,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/platforms\/android\/app\/src\/main\/res\/mipmap-hdpi\/icon.png": {
-		"ft": 32768,
-		"iS": 3345,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-hdpi\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/android\/app\/src\/main\/res\/mipmap-ldpi\/icon.png": {
-		"ft": 32768,
-		"iS": 1821,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-ldpi\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/platforms\/android\/app\/src\/main\/res\/mipmap-mdpi\/icon.png": {
 		"ft": 32768,
 		"iS": 2368,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-mdpi\/icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/android\/app\/src\/main\/res\/mipmap-xhdpi\/icon.png": {
-		"ft": 32768,
-		"iS": 4085,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-xhdpi\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/android\/app\/src\/main\/res\/mipmap-xxhdpi\/icon.png": {
-		"ft": 32768,
-		"iS": 6421,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-xxhdpi\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/android\/app\/src\/main\/res\/mipmap-xxxhdpi\/icon.png": {
-		"ft": 32768,
-		"iS": 7934,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/res\/mipmap-xxxhdpi\/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6712,6 +6622,36 @@
 		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-17-14-751.rawproto",
 		"oF": 0
 		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-40-16-593.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-40-16-593-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-40-16-593.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-40-16-593.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-45-36-313.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-45-36-313-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-45-36-313.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-26-10-45-36-313.rawproto",
+		"oF": 0
+		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
 		"cB": 0,
 		"ft": 8192,
@@ -9132,294 +9072,11 @@
 		"oAP": "\/platforms\/ios\/build\/device\/Packaging.log",
 		"oF": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png": {
-		"ft": 32768,
-		"iS": 3294,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x.png": {
-		"ft": 32768,
-		"iS": 5608,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 5608,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@3x.png": {
-		"ft": 32768,
-		"iS": 7040,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29~ipad.png": {
-		"ft": 32768,
-		"iS": 3294,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x.png": {
-		"ft": 32768,
-		"iS": 7411,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 7411,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@3x.png": {
-		"ft": 32768,
-		"iS": 11924,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40~ipad.png": {
-		"ft": 32768,
-		"iS": 4082,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon40x40~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 9611,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50~ipad.png": {
-		"ft": 32768,
-		"iS": 4874,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon50x50~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57.png": {
-		"ft": 32768,
-		"iS": 3902,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57@2x.png": {
-		"ft": 32768,
-		"iS": 7869,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon57x57@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@2x.png": {
-		"ft": 32768,
-		"iS": 11924,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@3x.png": {
-		"ft": 32768,
-		"iS": 30083,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon60x60@3x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 11706,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72~ipad.png": {
-		"ft": 32768,
-		"iS": 4944,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon72x72~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 15262,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76~ipad.png": {
-		"ft": 32768,
-		"iS": 7025,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon76x76~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png": {
-		"ft": 32768,
-		"iS": 20563,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon83.5x83.5@2x~ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
-		"oF": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-568h@2x.png": {
@@ -9605,13 +9262,6 @@
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/MainViewController.nib",
 		"oF": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo",
-		"oF": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/exec.js": {
 		"ft": 64,
 		"ma": 0,
@@ -9779,7 +9429,7 @@
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/avatar.png": {
 		"ft": 32768,
-		"iS": 5047,
+		"iS": 9956,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/avatar.png",
 		"oF": 0,
@@ -9790,7 +9440,7 @@
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/gift.png": {
 		"ft": 32768,
-		"iS": 11832,
+		"iS": 52567,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/img\/gift.png",
 		"oF": 0,
@@ -11879,6 +11529,94 @@
 		"oAP": "\/platforms\/ios\/Giftr\/Giftr-Prefix.pch",
 		"oF": 0
 		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon24x24@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon24x24@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon27.5x27.5@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon27.5x27.5@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon29x29@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon29x29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon29x29@3x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon29x29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon40x40@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon40x40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon44x44@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon44x44@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon86x86@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon86x86@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon98x98@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/AppIcon98x98@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/Contents.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -11887,9 +11625,53 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-1024.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-1024.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20@2x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20@3x.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-20@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-40.png": {
 		"ft": 32768,
-		"iS": 4082,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-40.png",
 		"oF": 0,
@@ -11900,7 +11682,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-40@2x.png": {
 		"ft": 32768,
-		"iS": 7411,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-40@2x.png",
 		"oF": 0,
@@ -11911,7 +11693,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-50.png": {
 		"ft": 32768,
-		"iS": 4874,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-50.png",
 		"oF": 0,
@@ -11922,7 +11704,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-50@2x.png": {
 		"ft": 32768,
-		"iS": 9611,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-50@2x.png",
 		"oF": 0,
@@ -11933,7 +11715,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-60@2x.png": {
 		"ft": 32768,
-		"iS": 11924,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-60@2x.png",
 		"oF": 0,
@@ -11944,7 +11726,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-60@3x.png": {
 		"ft": 32768,
-		"iS": 30083,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-60@3x.png",
 		"oF": 0,
@@ -11955,7 +11737,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-72.png": {
 		"ft": 32768,
-		"iS": 4944,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-72.png",
 		"oF": 0,
@@ -11966,7 +11748,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-72@2x.png": {
 		"ft": 32768,
-		"iS": 11706,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-72@2x.png",
 		"oF": 0,
@@ -11977,7 +11759,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-76.png": {
 		"ft": 32768,
-		"iS": 7025,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-76.png",
 		"oF": 0,
@@ -11988,7 +11770,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-76@2x.png": {
 		"ft": 32768,
-		"iS": 15262,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-76@2x.png",
 		"oF": 0,
@@ -11999,7 +11781,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-83.5@2x.png": {
 		"ft": 32768,
-		"iS": 20563,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-83.5@2x.png",
 		"oF": 0,
@@ -12010,7 +11792,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small.png": {
 		"ft": 32768,
-		"iS": 3294,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small.png",
 		"oF": 0,
@@ -12021,7 +11803,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small@2x.png": {
 		"ft": 32768,
-		"iS": 5608,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small@2x.png",
 		"oF": 0,
@@ -12032,7 +11814,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small@3x.png": {
 		"ft": 32768,
-		"iS": 7040,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon-small@3x.png",
 		"oF": 0,
@@ -12043,7 +11825,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon.png": {
 		"ft": 32768,
-		"iS": 3902,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon.png",
 		"oF": 0,
@@ -12054,7 +11836,7 @@
 		},
 	"\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon@2x.png": {
 		"ft": 32768,
-		"iS": 7869,
+		"iS": 1050873,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/AppIcon.appiconset\/icon@2x.png",
 		"oF": 0,
@@ -12085,8 +11867,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-568h@2x~iphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12096,8 +11878,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-667h.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12107,8 +11889,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-736h.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12118,8 +11900,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-Landscape-736h.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12129,8 +11911,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-Landscape@2x~ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12140,8 +11922,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-Landscape~ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12151,8 +11933,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-Portrait@2x~ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12162,8 +11944,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default-Portrait~ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12173,8 +11955,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default@2x~iphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12184,8 +11966,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/Giftr\/Images.xcassets\/LaunchImage.launchimage\/Default~iphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -12522,8 +12304,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/img\/avatar.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -12533,8 +12315,8 @@
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/img\/gift.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -14295,6 +14077,83 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/res\/Material Icons_e7e9(0)_1024.png": {
+		"ft": 32768,
+		"iS": 4202201,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_1024.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_128.png": {
+		"ft": 32768,
+		"iS": 65859,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_256.png": {
+		"ft": 32768,
+		"iS": 262913,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_32.png": {
+		"ft": 32768,
+		"iS": 4217,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_32.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_48.png": {
+		"ft": 32768,
+		"iS": 9365,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_48.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_512.png": {
+		"ft": 32768,
+		"iS": 1050873,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/res\/Material Icons_e7e9(0)_64.png": {
+		"ft": 32768,
+		"iS": 16561,
+		"oA": 0,
+		"oAP": "\/res\/Material Icons_e7e9(0)_64.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/res\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -14312,94 +14171,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/res\/screen\/android\/screen-hdpi-landscape.png": {
-		"ft": 32768,
-		"iS": 218302,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-hdpi-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-hdpi-portrait.png": {
-		"ft": 32768,
-		"iS": 222148,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-hdpi-portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-ldpi-landscape.png": {
-		"ft": 32768,
-		"iS": 42616,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-ldpi-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-ldpi-portrait.png": {
-		"ft": 32768,
-		"iS": 42034,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-ldpi-portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-mdpi-landscape.png": {
-		"ft": 32768,
-		"iS": 92347,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-mdpi-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-mdpi-portrait.png": {
-		"ft": 32768,
-		"iS": 90555,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-mdpi-portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-xhdpi-landscape.png": {
-		"ft": 32768,
-		"iS": 489604,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-xhdpi-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/android\/screen-xhdpi-portrait.png": {
-		"ft": 32768,
-		"iS": 504508,
-		"oA": 0,
-		"oAP": "\/res\/screen\/android\/screen-xhdpi-portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/res\/screen\/bada-wac\/screen-type3.png": {
 		"ft": 32768,
@@ -14483,105 +14254,6 @@
 		"iS": 57145,
 		"oA": 0,
 		"oAP": "\/res\/screen\/blackberry10\/splash-768x1280.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-ipad-landscape-2x.png": {
-		"ft": 32768,
-		"iS": 2610052,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-ipad-landscape-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-ipad-landscape.png": {
-		"ft": 32768,
-		"iS": 683155,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-ipad-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-ipad-portrait-2x.png": {
-		"ft": 32768,
-		"iS": 2656572,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-ipad-portrait-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-ipad-portrait.png": {
-		"ft": 32768,
-		"iS": 684294,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-ipad-portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-iphone-landscape-2x.png": {
-		"ft": 32768,
-		"iS": 339639,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-iphone-landscape-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-iphone-landscape.png": {
-		"ft": 32768,
-		"iS": 92301,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-iphone-landscape.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-iphone-portrait-2x.png": {
-		"ft": 32768,
-		"iS": 350593,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-iphone-portrait-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-iphone-portrait-568h-2x.png": {
-		"ft": 32768,
-		"iS": 34225,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-iphone-portrait-568h-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/res\/screen\/ios\/screen-iphone-portrait.png": {
-		"ft": 32768,
-		"iS": 93897,
-		"oA": 0,
-		"oAP": "\/res\/screen\/ios\/screen-iphone-portrait.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

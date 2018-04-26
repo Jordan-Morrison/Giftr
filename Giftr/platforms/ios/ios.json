@@ -22,13 +22,13 @@
     }
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
     },
     "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
     }
   },
@@ -53,8 +53,8 @@
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-device": "2.0.2",
-    "cordova-plugin-inappbrowser": "3.0.0"
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-whitelist": "1.3.3"
   }
 }
