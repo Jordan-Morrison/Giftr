@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 25 23:32:04 EDT 2018
+#Thu Apr 26 01:16:23 EDT 2018
 60.set=ASSET
 52.set=ANDROID_RESOURCE
 53.base=/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/assets/debug

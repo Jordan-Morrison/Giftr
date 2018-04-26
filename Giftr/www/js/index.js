@@ -31,11 +31,15 @@ const app = {
             //Any extra action on saving data goes here
             let regEx = new RegExp('\\d');
             if (this.getAttribute("data-id") == "" && !regEx.test(document.getElementById("name").value)){
-                await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
-                app.overlay('addPerson');
-                app.clearPeopleForm();
-                app.generatePeopleList();
-                app.navigate("peopleForm", "peopleScreen");
+                try {
+                    await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
+                    app.overlay('addPerson');
+                    app.clearPeopleForm();
+                    app.navigate("peopleForm", "peopleScreen");
+                    app.generatePeopleList();
+                } catch(err) {
+                    console.log('Save Error: '+ err);
+                }
             }else if(regEx.test(document.getElementById("name").value)){
                 app.overlay('numberInName');
             }
@@ -43,9 +47,9 @@ const app = {
                 await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
                 app.overlay('editPerson');
                 app.clearPeopleForm();
-                app.generatePeopleList();
                 app.navigate("peopleForm", "peopleScreen");
                 document.getElementById("peopleFormTitle").innerHTML = "Add Person";
+                app.generatePeopleList();
             }
         });
 
@@ -122,6 +126,7 @@ const app = {
                     app.clearPeopleForm();
                     app.generatePeopleList();
                     app.navigate("peopleForm", "peopleScreen");
+                    document.getElementById("peopleFormTitle").innerHTML = "Add Person";
                 });
                 app.navigate("peopleScreen", "peopleForm");
             });

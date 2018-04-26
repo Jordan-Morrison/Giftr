@@ -12,12 +12,12 @@
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_remove.png"
     },
     {
-        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
-        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
-    },
-    {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_remove.png.flat",
         "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/res/drawable-hdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
+        "source": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
     },
     {
         "merged": "/Users/jordanwillis/Google Drive/Mobile Development/Semester 2/applicationdev/assignments/Giftr/Giftr/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",

@@ -29,18 +29,28 @@ const app = {
         //Add person form (saved) to people list 
         document.getElementById("peopleFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
-            if (this.getAttribute("data-id") == ""){
-                await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
-                app.overlay('addPerson');
+            let regEx = new RegExp('\\d');
+            if (this.getAttribute("data-id") == "" && !regEx.test(document.getElementById("name").value)){
+                try {
+                    await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
+                    app.overlay('addPerson');
+                    app.clearPeopleForm();
+                    app.navigate("peopleForm", "peopleScreen");
+                    app.generatePeopleList();
+                } catch(err) {
+                    console.log('Save Error: '+ err);
+                }
+            }else if(regEx.test(document.getElementById("name").value)){
+                app.overlay('numberInName');
             }
             else{
                 await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
                 app.overlay('editPerson');
+                app.clearPeopleForm();
+                app.navigate("peopleForm", "peopleScreen");
+                document.getElementById("peopleFormTitle").innerHTML = "Add Person";
+                app.generatePeopleList();
             }
-            app.clearPeopleForm();
-            app.generatePeopleList();
-            app.navigate("peopleForm", "peopleScreen");
-            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Gift list to add new gift screen
@@ -67,12 +77,17 @@ const app = {
         document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
             let personId = document.getElementById("giftScreen").getAttribute("data-id");
-            await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
+            let regEx = new RegExp('^http://', 'gi')
+            if(regEx.test(document.getElementById('giftUrl').value)){
+                await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
             // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;
-            app.overlay('addGift');
-            app.navigate("giftForm", "giftScreen");
-            app.generateGiftList(personId);
-            app.clearGiftForm();
+                app.overlay('addGift');
+                app.navigate("giftForm", "giftScreen");
+                app.generateGiftList(personId);
+                app.clearGiftForm();
+            } else {
+                app.overlay('httpMissing');
+            }
         });
     },
 
@@ -111,6 +126,7 @@ const app = {
                     app.clearPeopleForm();
                     app.generatePeopleList();
                     app.navigate("peopleForm", "peopleScreen");
+                    document.getElementById("peopleFormTitle").innerHTML = "Add Person";
                 });
                 app.navigate("peopleScreen", "peopleForm");
             });
@@ -217,6 +233,14 @@ const app = {
                 message.classList.add('success');
                 message.innerHTML = 'Person Added!';
                 break;
+            case 'numberInName':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = 'Names may only contain letters!';
+                setTimeout(() => {
+                }, 250);
+                break;
             // Profile is rejected
             case 'deletePerson':
                 var message = document.querySelector('.t3');
@@ -236,6 +260,14 @@ const app = {
                 message.classList.remove('error');
                 message.classList.add('success');
                 message.innerHTML = "Gift Idea Added!";
+                break;
+            case 'httpMissing':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = "Please add http:// to start of url!";
+                setTimeout(() => {
+                }, 250);
                 break;
             case 'deleteGift':
                 var message = document.querySelector('.t3');
