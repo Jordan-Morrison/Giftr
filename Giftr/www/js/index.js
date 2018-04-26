@@ -56,6 +56,7 @@ const app = {
         //Gift list to add new gift screen
         document.querySelectorAll(".addGiftButton").forEach(element => {
             element.addEventListener("click", function(){
+                document.getElementById("giftUrl").value = "https://";
                 app.navigate("giftScreen", "giftForm");
             })
         });
@@ -77,7 +78,7 @@ const app = {
         document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
             let personId = document.getElementById("giftScreen").getAttribute("data-id");
-            let regEx = new RegExp('^http://', 'gi')
+            let regEx = new RegExp('^https?://', 'gi')
             if(regEx.test(document.getElementById('giftUrl').value)){
                 await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
             // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;

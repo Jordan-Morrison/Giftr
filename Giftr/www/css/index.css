@@ -27,6 +27,8 @@
 
 .list-item .gift-url{
     min-height: 2rem;
+    font-size: .6rem;
+    word-wrap: break-word;
 }
 
 /* Overlay CSS */
