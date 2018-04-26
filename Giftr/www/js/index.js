@@ -167,7 +167,13 @@ const app = {
           });
         document.getElementById("peopleList").innerHTML = output;
         listBuildArray.forEach(person => {
-            output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+            let currentMonth = moment().format();
+            currentMonth = currentMonth.substring(5, 7);
+            if(person.person_dob.substring(5, 7) < currentMonth){
+                output += `<li class="list-item past-date" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+            } else {
+                output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+            }
         });
         document.getElementById("peopleList").innerHTML = output;
         app.addPeopleEventListeners();

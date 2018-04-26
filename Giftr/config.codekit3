@@ -8649,46 +8649,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
-		"oF": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-568h@2x.png": {
@@ -8874,13 +8839,6 @@
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/MainViewController.nib",
 		"oF": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo",
-		"oF": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/exec.js": {
 		"ft": 64,
 		"ma": 0,
@@ -8996,6 +8954,16 @@
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
 		"oF": 0
 		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/index-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/index-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -9081,6 +9049,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/moment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/js\/moment-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -11715,6 +11693,16 @@
 		"oAP": "\/platforms\/ios\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
 		"oF": 0
 		},
+	"\/platforms\/ios\/www\/css\/index-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/css\/index-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/ios\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -11800,6 +11788,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/ios\/www\/js\/moment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/www\/js\/moment-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -13902,6 +13900,16 @@
 		"oAP": "\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
 		"oF": 0
 		},
+	"\/www\/css\/index-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/www\/css\/index-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -13977,6 +13985,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/www\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/www\/js\/moment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/www\/js\/moment-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
