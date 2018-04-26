@@ -159,8 +159,14 @@ const app = {
     generatePeopleList: async function(){
         let response = await server.getPeopleList();
         let output = "";
+        let listBuildArray = response.data;
+        listBuildArray.sort(function(a,b){
+            // Turn your strings into dates, and then subtract them
+            // to get a value that is either negative, positive, or zero.
+            return new Date(b.person_dob) - new Date(a.person_dob);
+          });
         document.getElementById("peopleList").innerHTML = output;
-        response.data.forEach(person => {
+        listBuildArray.forEach(person => {
             output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
         });
         document.getElementById("peopleList").innerHTML = output;

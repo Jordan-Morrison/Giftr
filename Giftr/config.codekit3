@@ -8429,27 +8429,6 @@
 		"oAP": "\/platforms\/ios\/build\/device\/Packaging.log",
 		"oF": 0
 		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources",
-		"oF": 0
-		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png": {
 		"ft": 32768,
 		"iS": 3294,
@@ -8703,13 +8682,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml",
-		"oF": 0
-		},
-	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist": {
