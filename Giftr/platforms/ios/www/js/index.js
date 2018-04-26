@@ -73,12 +73,17 @@ const app = {
         document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
             let personId = document.getElementById("giftScreen").getAttribute("data-id");
-            await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
+            let regEx = new RegExp('^http://', 'gi')
+            if(regEx.test(document.getElementById('giftUrl').value)){
+                await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
             // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;
-            app.overlay('addGift');
-            app.navigate("giftForm", "giftScreen");
-            app.generateGiftList(personId);
-            app.clearGiftForm();
+                app.overlay('addGift');
+                app.navigate("giftForm", "giftScreen");
+                app.generateGiftList(personId);
+                app.clearGiftForm();
+            } else {
+                app.overlay('httpMissing');
+            }
         });
     },
 
@@ -250,6 +255,14 @@ const app = {
                 message.classList.remove('error');
                 message.classList.add('success');
                 message.innerHTML = "Gift Idea Added!";
+                break;
+            case 'httpMissing':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = "Please add http:// to start of url!";
+                setTimeout(() => {
+                }, 250);
                 break;
             case 'deleteGift':
                 var message = document.querySelector('.t3');
