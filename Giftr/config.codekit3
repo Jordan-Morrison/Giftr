@@ -1132,16 +1132,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3095,16 +3085,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -6505,6 +6485,36 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-29-45-715.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-04-417.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-04-417-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-04-417.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-04-417.rawproto",
+		"oF": 0
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-33-799.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-33-799-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-33-799.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-32-33-799.rawproto",
 		"oF": 0
 		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {

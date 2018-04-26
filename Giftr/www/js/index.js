@@ -29,18 +29,24 @@ const app = {
         //Add person form (saved) to people list 
         document.getElementById("peopleFormSaveButton").addEventListener("click", async function(){
             //Any extra action on saving data goes here
-            if (this.getAttribute("data-id") == ""){
+            let regEx = new RegExp('\\d');
+            if (this.getAttribute("data-id") == "" && !regEx.test(document.getElementById("name").value)){
                 await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
                 app.overlay('addPerson');
+                app.clearPeopleForm();
+                app.generatePeopleList();
+                app.navigate("peopleForm", "peopleScreen");
+            }else if(regEx.test(document.getElementById("name").value)){
+                app.overlay('numberInName');
             }
             else{
                 await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
                 app.overlay('editPerson');
+                app.clearPeopleForm();
+                app.generatePeopleList();
+                app.navigate("peopleForm", "peopleScreen");
+                document.getElementById("peopleFormTitle").innerHTML = "Add Person";
             }
-            app.clearPeopleForm();
-            app.generatePeopleList();
-            app.navigate("peopleForm", "peopleScreen");
-            document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Gift list to add new gift screen
@@ -216,6 +222,14 @@ const app = {
                 message.classList.remove('error');
                 message.classList.add('success');
                 message.innerHTML = 'Person Added!';
+                break;
+            case 'numberInName':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = 'Names may only contain letters!';
+                setTimeout(() => {
+                }, 250);
                 break;
             // Profile is rejected
             case 'deletePerson':
