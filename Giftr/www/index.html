@@ -25,13 +25,10 @@
             - Button to add person in nav bar 
         -->
     <div id="peopleScreen" class="page active">
-        <!-- iOS Navbar -->
-        <nav class="ios bar-half top">
-            <a href="#" class="link right rightOnly icon add addPersonButton">Add</a>
-        </nav>
         <!-- Android Header/Navbar -->
-        <header class="android bar top">
+        <header class="bar top">
             <h1 class="page-title">People</h1>
+            <a href="#" class="ios link right rightOnly icon add addPersonButton">Add</a>
         </header>
         <section class="content">
             <ul id='peopleList' class="list-view">
@@ -94,15 +91,12 @@
                 - Way to navigate back to the person list page
         -->
     <div id="giftScreen" class="page" data-id="">
-        <!-- iOS Nav Bar -->
-        <nav class="ios bar-half top">
-            <a href="#" class="link left icon arrow_left giftScreenBackButton">Back</a>
-            <a href="#" class="link right icon add addGiftButton">Add</a>
-        </nav>
         <!-- Android Header/Nav Bar -->
-        <header class="android bar top">
-            <span id="gift-back-button-android" class='left-button back giftScreenBackButton'>Back</span>
+        <header class="bar top">
+            <span id="gift-back-button-android" class='android left-button back giftScreenBackButton'>Back</span>
+            <a href="#" class="ios link left leftOnly icon arrow_left giftScreenBackButton">Back</a>
             <h1 class="page-title">Gifts</h1>
+            <a href="#" class="ios link right rightOnly icon add addGiftButton">Add</a>
         </header>
         <section class="content">
             <ul id="giftList" class="list-view">
@@ -126,7 +120,7 @@
                 - Way to cancel adding a gift and go back to gift list page
         -->
     <div id="giftForm" class="page">
-        <header class="android bar top">
+        <header class="bar top">
             <h1 class="page-title">Add Gift</h1>
         </header>
         <section id="giftFormSection" class="content">
@@ -152,6 +146,11 @@
                     <input type="button" id="giftFormCancelButton" class="btn-small" value="cancel" />
                 </div>
             </form>
+        </section>
+    </div>
+    <div class="overlay-bars">
+        <section class="message">
+            <h1 class="t3"></h1>
         </section>
     </div>
 

@@ -993,6 +993,16 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/index-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/index-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1072,6 +1082,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/moment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/moment-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/js\/platform.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1108,6 +1128,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/assets\/debug\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1712,6 +1752,118 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/device\/Device.class",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.class",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/classes\/debug\/org\/apache\/cordova\/R.class": {
 		"cB": 0,
 		"ft": 8192,
@@ -1794,13 +1946,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/compile-file-map.properties",
-		"oF": 0
-		},
-	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merged.dir\/values\/values.xml",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/incremental\/mergeDebugResources\/merger.xml": {
@@ -1899,6 +2044,27 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/debug\/resources-debug.ap_",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_next_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_next_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_previous_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_previous_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_remove.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-hdpi_ic_action_remove.png.flat",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-hdpi_screen.png.flat": {
 		"cB": 0,
 		"ft": 8192,
@@ -1941,6 +2107,27 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-land-xxxhdpi_screen.png.flat",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_next_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_next_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_previous_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_previous_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_remove.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-mdpi_ic_action_remove.png.flat",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-hdpi_screen.png.flat": {
 		"cB": 0,
 		"ft": 8192,
@@ -1981,6 +2168,48 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-port-xxxhdpi_screen.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_next_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_next_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_previous_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_previous_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_remove.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xhdpi_ic_action_remove.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_next_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_next_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_previous_item.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_previous_item.png.flat",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_remove.png.flat": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/drawable-xxhdpi_ic_action_remove.png.flat",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/res\/merged\/debug\/mipmap-hdpi_icon.png.flat": {
@@ -2123,6 +2352,118 @@
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/device\/Device.class",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.class",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.class": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.class",
+		"oF": 0
+		},
 	"\/platforms\/android\/app\/build\/intermediates\/transforms\/desugar\/debug\/3\/org\/apache\/cordova\/R.class": {
 		"cB": 0,
 		"ft": 8192,
@@ -2220,6 +2561,118 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/device\/Device.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$1.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$2.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$3.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$4.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5$1.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$5.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$1.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$2.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$3.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$4.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6$5.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$6.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser$InAppBrowserClient.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowser.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppBrowserDialog.dex",
+		"oF": 0
+		},
+	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.dex": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/inappbrowser\/InAppChromeClient.dex",
 		"oF": 0
 		},
 	"\/platforms\/android\/app\/build\/intermediates\/transforms\/dexBuilder\/debug\/13\/org\/apache\/cordova\/R.dex": {
@@ -2507,6 +2960,16 @@
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/fonts\/MaterialIcons-Regular.woff2",
 		"oF": 0
 		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/index-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/css\/index-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2586,6 +3049,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/moment.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/js\/moment-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/platforms\/android\/app\/src\/main\/assets\/www\/js\/platform.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2622,6 +3095,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-device\/www\/device-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/app\/src\/main\/assets\/www\/plugins\/cordova-plugin-inappbrowser\/www\/inappbrowser-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -6009,6 +6492,21 @@
 		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-19-33-40-107.rawproto",
 		"oF": 0
 		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-29-45-715.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-29-45-715-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-29-45-715.rawproto": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/android\/build\/android-profile\/profile-2018-04-25-23-29-45-715.rawproto",
+		"oF": 0
+		},
 	"\/platforms\/android\/cordova\/android_sdk_version": {
 		"cB": 0,
 		"ft": 8192,
@@ -8429,6 +8927,27 @@
 		"oAP": "\/platforms\/ios\/build\/device\/Packaging.log",
 		"oF": 0
 		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app.dSYM\/Contents\/Resources\/DWARF\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/_CodeSignature\/CodeResources",
+		"oF": 0
+		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/AppIcon29x29.png": {
 		"ft": 32768,
 		"iS": 3294,
@@ -8649,11 +9168,53 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Assets.car",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/Info.plist",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/CDVLaunchScreen.storyboardc\/UIViewController-01J-lp-oVM.nib",
+		"oF": 0
+		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/config.xml",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Giftr",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/Info.plist",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/LaunchImage-568h@2x.png": {
@@ -8837,6 +9398,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/MainViewController.nib",
+		"oF": 0
+		},
+	"\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/platforms\/ios\/build\/emulator\/Giftr.app\/PkgInfo",
 		"oF": 0
 		},
 	"\/platforms\/ios\/build\/emulator\/Giftr.app\/www\/cordova-js-src\/exec.js": {

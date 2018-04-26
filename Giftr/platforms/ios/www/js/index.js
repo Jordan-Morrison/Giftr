@@ -31,10 +31,11 @@ const app = {
             //Any extra action on saving data goes here
             if (this.getAttribute("data-id") == ""){
                 await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
+                app.overlay('addPerson');
             }
             else{
                 await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
-
+                app.overlay('editPerson');
             }
             app.clearPeopleForm();
             app.generatePeopleList();
@@ -68,6 +69,7 @@ const app = {
             let personId = document.getElementById("giftScreen").getAttribute("data-id");
             await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
             // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;
+            app.overlay('addGift');
             app.navigate("giftForm", "giftScreen");
             app.generateGiftList(personId);
             app.clearGiftForm();
@@ -76,7 +78,7 @@ const app = {
 
     //Dynamic listeners are the list items which can change throughout the session
     addPeopleEventListeners: function(){
-        document.querySelectorAll("#peopleList .list-item .arrow_right").forEach(element => {
+        document.querySelectorAll("#peopleList .list-item .store").forEach(element => {
             element.addEventListener("click", function(){
                 //Update gift screen with data from server
                 app.generateGiftList(this.parentElement.getAttribute("data-id"));
@@ -103,11 +105,12 @@ const app = {
                 deletePersonButton.setAttribute("id", "deletePersonButton");
                 deletePersonButton.setAttribute("data-id", dataId);
                 document.getElementById("peopleFormHeader").appendChild(deletePersonButton);
-                deletePersonButton.addEventListener("click", function(){
-                    server.deletePerson(dataId);
-                    app.navigate("peopleForm", "peopleScreen");
+                deletePersonButton.addEventListener("click", async function(){
+                    app.overlay("deleteGift");
+                    await server.deletePerson(dataId);
                     app.clearPeopleForm();
                     app.generatePeopleList();
+                    app.navigate("peopleForm", "peopleScreen");
                 });
                 app.navigate("peopleScreen", "peopleForm");
             });
@@ -123,6 +126,7 @@ const app = {
         document.querySelectorAll("#giftList .list-item .delete").forEach(element => {
             element.addEventListener("click", async function(){
                 await server.deleteGift(this.getAttribute("data-giftid"));
+                app.overlay('deleteGift');
                 this.parentElement.remove();
             });
         });
@@ -170,9 +174,9 @@ const app = {
             let currentMonth = moment().format();
             currentMonth = currentMonth.substring(5, 7);
             if(person.person_dob.substring(5, 7) < currentMonth){
-                output += `<li class="list-item past-date" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+                output += `<li class="list-item past-date" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon store"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
             } else {
-                output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+                output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon store"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
             }
         });
         document.getElementById("peopleList").innerHTML = output;
@@ -200,7 +204,51 @@ const app = {
         app.addGiftEventListeners();
     },
 
-};
+    overlay: function(context){
+        let overlay = document.querySelector('.overlay-bars');
+        // Make overlay visible
+        overlay.classList.add('active');
+        // Switch message displayed based on how the prompt function was called
+        switch (context) {
+            // Profile is accepted
+            case 'addPerson':
+                var message = document.querySelector('.t3');
+                message.classList.remove('error');
+                message.classList.add('success');
+                message.innerHTML = 'Person Added!';
+                break;
+            // Profile is rejected
+            case 'deletePerson':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = "Person Removed!";
+                break;
+            case 'editPerson':
+                var message = document.querySelector('.t3');
+                message.classList.remove('error');
+                message.classList.add('success');
+                message.innerHTML = "Person Succesfully Edited!";
+                break;
+            // Profile is deleted from the favourites page
+            case 'addGift':
+                var message = document.querySelector('.t3');
+                message.classList.remove('error');
+                message.classList.add('success');
+                message.innerHTML = "Gift Idea Added!";
+                break;
+            case 'deleteGift':
+                var message = document.querySelector('.t3');
+                message.classList.remove('success');
+                message.classList.add('error');
+                message.innerHTML = "Gift Idea Removed!";
+                break;
+        }
+        setTimeout(() => {
+            overlay.classList.remove('active');
+        }, 750);
+    }
+}
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
 document.addEventListener(loadEvent, app.main);

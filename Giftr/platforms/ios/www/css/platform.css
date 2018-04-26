@@ -4,8 +4,13 @@
 }
 
 /* Sets the colour for ios links */
-.bar-half a{
+/* header{
+    padding: 0;
+} */
+
+header a.link{
     color: rgb(50,124,246);
+    /* padding: 0; */
 }
 
 .content {
@@ -16,6 +21,13 @@
 .rightOnly{
     position: absolute;
     right: 0;
+    /* padding-right: 10%; */
+}
+
+.leftOnly{
+    position: absolute;
+    left: 0;
+    /* padding-left: 10%; */
 }
 
 /* Fix Fields Being pushed to side of screen */

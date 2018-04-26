@@ -103,7 +103,7 @@ const server = {
     addGift: async function(personId, gift, url, price, store){
         try {
             let response = await server.connect(`gifts`, "POST", server.token, `person_id=${personId}&gift_title=${gift}&gift_url=${url}&gift_price=${price}&gift_store=${store}`);
-            alert(response.message);
+            console.log("Add Gift", response);
             return response;
         } catch (e) {
             console.log("ERROR: " + e);
