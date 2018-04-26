@@ -163,7 +163,7 @@ const app = {
         listBuildArray.sort(function(a,b){
             // Turn your strings into dates, and then subtract them
             // to get a value that is either negative, positive, or zero.
-            return new Date(b.person_dob) - new Date(a.person_dob);
+            return new Date(a.person_dob.substring(5, 7)) - new Date(b.person_dob.substring(5, 7));
           });
         document.getElementById("peopleList").innerHTML = output;
         listBuildArray.forEach(person => {
