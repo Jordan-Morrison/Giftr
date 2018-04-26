@@ -29,4 +29,8 @@
     <allow-intent href="*" />
     <icon src="res/Material Icons_e7e9(0)_512.png" />
     <preference name="loglevel" value="DEBUG" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>
