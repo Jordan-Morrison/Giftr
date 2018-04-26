@@ -12,12 +12,6 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
-    },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.algonquin.mad9022.giftr"
     }
   },
   "dependent_plugins": {}

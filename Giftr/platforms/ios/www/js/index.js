@@ -1,10 +1,10 @@
 const app = {
 
-    main: function(){setTimeout(() => {
+    main: function(){
+        app.editFlag = [false, null];
+        app.checkLocalStorage();
         app.addConstantEventListeners();
-        server.init("https://dall0078.edumedia.ca/mad9023/giftr/api", device.uuid);
         app.generatePeopleList();
-    }, 200);
     },
 
     //Constant listeners are mainly navigation buttons (always stay the same throughout session)
@@ -18,45 +18,32 @@ const app = {
 
         //Add person form (cancelled) to people list 
         document.getElementById("peopleFormCancelButton").addEventListener("click",function(){
-            if(document.getElementById('peopleFormSaveButton').getAttribute('data-id') !== ""){
-                document.getElementById('peopleFormSaveButton').getAttribute('data-id') == ""
-            }
-            app.clearPeopleForm();
             app.navigate("peopleForm", "peopleScreen");
+            document.getElementById("addPeopleForm").reset();
+            app.editFlag[0] = false;
             document.getElementById("peopleFormTitle").innerHTML = "Add Person";
         });
 
         //Add person form (saved) to people list 
-        document.getElementById("peopleFormSaveButton").addEventListener("click", async function(){
+        document.getElementById("peopleFormSaveButton").addEventListener("click", function(){
             //Any extra action on saving data goes here
-            let regEx = new RegExp('\\d');
-            if (this.getAttribute("data-id") == "" && !regEx.test(document.getElementById("name").value)){
-                try {
-                    await server.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
-                    app.overlay('addPerson');
-                    app.clearPeopleForm();
-                    app.navigate("peopleForm", "peopleScreen");
-                    app.generatePeopleList();
-                } catch(err) {
-                    console.log('Save Error: '+ err);
+            if (app.validatePersonForm(document.getElementById("name").value, document.getElementById("birthday").value)){
+                if (app.editFlag[0]){
+                    app.editPerson(document.getElementById("name").value, document.getElementById("birthday").value);
                 }
-            }else if(regEx.test(document.getElementById("name").value)){
-                app.overlay('numberInName');
-            }
-            else{
-                await server.editPerson(this.getAttribute("data-id"), document.getElementById("name").value, document.getElementById("birthday").value);
-                app.overlay('editPerson');
-                app.clearPeopleForm();
+                else{
+                    app.addPerson(document.getElementById("name").value, document.getElementById("birthday").value);
+                }
                 app.navigate("peopleForm", "peopleScreen");
+                document.getElementById("addPeopleForm").reset();
+                app.editFlag[0] = false;
                 document.getElementById("peopleFormTitle").innerHTML = "Add Person";
-                app.generatePeopleList();
             }
         });
 
         //Gift list to add new gift screen
         document.querySelectorAll(".addGiftButton").forEach(element => {
             element.addEventListener("click", function(){
-                document.getElementById("giftUrl").value = "https://";
                 app.navigate("giftScreen", "giftForm");
             })
         });
@@ -70,35 +57,31 @@ const app = {
 
         //Add gift form (cancelled) to gift list 
         document.getElementById("giftFormCancelButton").addEventListener("click", function(){
-            app.clearGiftForm();
+            document.getElementById("addGiftForm").reset();
             app.navigate("giftForm", "giftScreen");
         });
 
         //Add gift form (saved) to gift list 
-        document.getElementById("giftFormSaveButton").addEventListener("click", async function(){
+        document.getElementById("giftFormSaveButton").addEventListener("click", function(){
             //Any extra action on saving data goes here
-            let personId = document.getElementById("giftScreen").getAttribute("data-id");
-            let regEx = new RegExp('^https?://', 'gi')
-            if(regEx.test(document.getElementById('giftUrl').value)){
-                await server.addGift(personId, document.getElementById("giftIdea").value, document.getElementById("giftUrl").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value);
-            // output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${document.getElementById("giftIdea").value}</p><p>${document.getElementById("giftPrice").value}</p></li>`;
-                app.overlay('addGift');
+            if (app.validateGiftForm(document.getElementById("giftIdea").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value, document.getElementById("giftUrl").value)){
+                app.addGift(document.getElementById("giftIdea").value, document.getElementById("giftPrice").value, document.getElementById("giftStore").value, document.getElementById("giftUrl").value.toLowerCase());
+                document.getElementById("addGiftForm").reset();
                 app.navigate("giftForm", "giftScreen");
-                app.generateGiftList(personId);
-                app.clearGiftForm();
-            } else {
-                app.overlay('httpMissing');
             }
         });
     },
 
     //Dynamic listeners are the list items which can change throughout the session
     addPeopleEventListeners: function(){
-        document.querySelectorAll("#peopleList .list-item .store").forEach(element => {
+        document.querySelectorAll("#peopleList .list-item .arrow_right").forEach(element => {
             element.addEventListener("click", function(){
                 //Update gift screen with data from server
+                document.getElementById("giftList").setAttribute("data-personid", this.parentElement.getAttribute("data-id"))
                 app.generateGiftList(this.parentElement.getAttribute("data-id"));
-                document.getElementById("giftScreen").setAttribute("data-id", this.parentElement.getAttribute("data-id"));
+                document.querySelectorAll("#peopleList .list-item").forEach(element => {
+                    element.classList.remove("slideLeft");
+                });
                 app.navigate("peopleScreen", "giftScreen");
                 // If platform is Android, add animations
                 if(app.platformConstants.platform === 'Android'){
@@ -110,41 +93,43 @@ const app = {
         document.querySelectorAll("#peopleList .list-item .peopleListName").forEach(element => {
             element.addEventListener("click", function(){
                 //Update people form screen
-                let dataId = this.parentElement.getAttribute("data-id");
-                console.log(dataId);
-                app.autoFillPeopleForm(dataId);
-                document.getElementById("peopleFormSaveButton").setAttribute("data-id", dataId);
+                app.autoFillPeopleForm(this.parentElement.getAttribute("data-id"));
                 // Change page title to match edit context
                 document.getElementById("peopleFormTitle").innerHTML = "Edit Person";
-                let deletePersonButton = document.createElement("span");
-                deletePersonButton.classList.add("action-right", "icon", "delete");
-                deletePersonButton.setAttribute("id", "deletePersonButton");
-                deletePersonButton.setAttribute("data-id", dataId);
-                document.getElementById("peopleFormHeader").appendChild(deletePersonButton);
-                deletePersonButton.addEventListener("click", async function(){
-                    app.overlay("deletePerson");
-                    await server.deletePerson(dataId);
-                    app.clearPeopleForm();
-                    app.generatePeopleList();
-                    app.navigate("peopleForm", "peopleScreen");
-                    document.getElementById("peopleFormTitle").innerHTML = "Add Person";
-                });
                 app.navigate("peopleScreen", "peopleForm");
             });
         });
+
+        let target = document.querySelectorAll("#peopleList .swipeable");
+        let tiny = new t$(target);
+        tiny.addEventListener(t$.EventTypes.SWIPELEFT, onSwipeLeft);
+        function onSwipeLeft(ev){
+            document.querySelectorAll("#peopleList .swipeable").forEach(element => {
+                element.classList.remove("slideLeft");
+            });
+            ev.target.classList.add("slideLeft");
+            document.getElementById("deleteToggle").style.top = `${ev.target.offsetTop}px`;
+            document.getElementById("deleteToggle").addEventListener("click", function(){
+                app.deletePerson(ev.target.getAttribute("data-id"));
+                document.getElementById("deleteToggle").style.top = `-100px`;
+            });
+        }
+        tiny.addEventListener(t$.EventTypes.SWIPERIGHT, onSwipeRight);
+        function onSwipeRight(ev){
+            ev.target.classList.remove("slideLeft");
+        }
     },
 
-    addGiftEventListeners: async function(){
-        console.log(document.querySelectorAll(".gift-url"));
-        document.querySelectorAll(".gift-url").forEach(element =>{
-            console.log(element.innerHTML);
-            element.addEventListener("click", app.openGiftLink);
-        })
+    addGiftEventListeners: function(){
         document.querySelectorAll("#giftList .list-item .delete").forEach(element => {
-            element.addEventListener("click", async function(){
-                await server.deleteGift(this.getAttribute("data-giftid"));
-                app.overlay('deleteGift');
-                this.parentElement.remove();
+            element.addEventListener("click", function(){
+                app.deleteGift(this.getAttribute("data-giftid"));
+            });
+        });
+
+        document.querySelectorAll("#giftList .list-item .avatar").forEach(element => {
+            element.addEventListener("click", function(){
+                window.open(this.getAttribute("data-link"), '_system');
             });
         });
     },
@@ -155,133 +140,184 @@ const app = {
         document.getElementById(show).classList.add("active");
     },
 
-    openGiftLink: function(ev){
-        cordova.InAppBrowser.open(ev.target.innerHTML, '_blank', 'location=yes');
-    },
-
-    clearPeopleForm: function(){
-        document.getElementById("peopleFormSaveButton").setAttribute("data-id", "");
-        document.getElementById("name").value = "";
-        document.getElementById("birthday").value = "";
-        document.getElementById("peopleForm")
-        let deletePersonButton = document.getElementById("deletePersonButton");
-        if(deletePersonButton){
-            deletePersonButton.remove();
+    checkLocalStorage: function(){
+        if (!localStorage.people){
+            localStorage.people = JSON.stringify([]);
         }
     },
 
-    clearGiftForm: function(){
-        document.getElementById("giftIdea").value = "";
-        document.getElementById("giftPrice").value = "";
-        document.getElementById("giftStore").value = "";
-        document.getElementById("giftUrl").value = "";
+    validatePersonForm: function(name, dateOfBirth){
+        if (name.replace(/\s/g, '') == ""){
+            alert("You must enter a name");
+            return false;
+        }
+        if (new Date(dateOfBirth) == "Invalid Date"){
+            alert("The date you have entered is invalid");
+            return false;
+        }
+        if(new Date() < new Date(dateOfBirth)){
+            alert("Birth dates must be a past date");
+            return false;
+        }
+        return true;
     },
 
-    generatePeopleList: async function(){
-        let response = await server.getPeopleList();
-        let output = "";
-        let listBuildArray = response.data;
-        listBuildArray.sort(function(a,b){
-            // Turn your strings into dates, and then subtract them
-            // to get a value that is either negative, positive, or zero.
-            return new Date(a.person_dob.substring(5, 7)) - new Date(b.person_dob.substring(5, 7));
-          });
-        document.getElementById("peopleList").innerHTML = output;
-        listBuildArray.forEach(person => {
-            let currentMonth = moment().format();
-            currentMonth = currentMonth.substring(5, 7);
-            if(person.person_dob.substring(5, 7) < currentMonth){
-                output += `<li class="list-item past-date" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon store"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
-            } else {
-                output += `<li class="list-item" data-id="${person.person_id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon store"></span><p class="peopleListName">${person.person_name}</p><p>${person.person_dob}</p></li>`;
+    validateGiftForm: function(name, price, store, url){
+        if (name.replace(/\s/g, '') == ""){
+            alert("You must enter a gift idea");
+            return false;
+        }
+        let validPrice = /^[0-9]\d*(?:\.\d{0,2})?$/;
+        if (!validPrice.test(price)){
+            alert("You must enter a valid price");
+            return false;
+        }
+        if (store.replace(/\s/g, '') == ""){
+            alert("You must enter a store name");
+            return false;
+        }
+        let validUrl = /^(http|https):\/\/[^ "]+$/;
+        if (!validUrl.test(url.toLowerCase())){
+            alert("You must enter a valid URL");
+            return false;
+        }
+        return true;
+    },
+
+    addPerson: function(name, dateOfBirth){
+        let people = JSON.parse(localStorage.people);
+        people.push({
+            "name": name,
+            "dateOfBirth": dateOfBirth,
+            "gifts": [],
+            "id": new Date().getTime()
+        });
+        localStorage.people = JSON.stringify(people);
+        app.generatePeopleList();
+    },
+
+    deletePerson: function(personID){
+        let people = JSON.parse(localStorage.people);
+        people.forEach(person => {
+            if (person.id == personID){
+                people.splice(people.indexOf(person), 1);
+                console.log("deleting perosn");
             }
         });
+        localStorage.people = JSON.stringify(people);
+        app.generatePeopleList();
+    },
+
+    autoFillPeopleForm: function(personID){
+        let people = JSON.parse(localStorage.people);
+        let personToEdit = null;
+        people.forEach(person => {
+            if (person.id == personID){
+                personToEdit = person;
+            }
+        });
+        app.editFlag = [true, personToEdit.id];
+        document.getElementById("name").value = personToEdit.name;
+        document.getElementById("birthday").value = personToEdit.dateOfBirth;
+    },
+
+    editPerson: function(name, dateOfBirth){
+        let people = JSON.parse(localStorage.people);
+        people.forEach(person => {
+            if (person.id == app.editFlag[1]){
+                person.name = name;
+                person.dateOfBirth = dateOfBirth;
+            }
+        });
+        localStorage.people = JSON.stringify(people);
+        app.generatePeopleList();
+    },
+
+    addGift: function(name, price, store, url){
+        let people = JSON.parse(localStorage.people);
+        people.forEach(person => {
+            if (person.id == document.getElementById("giftList").getAttribute("data-personid")){
+                person.gifts.push({
+                    "name": name,
+                    "price": price,
+                    "store": store,
+                    "url": url,
+                    "id": new Date().getTime()
+                });
+            }
+        });
+        localStorage.people = JSON.stringify(people);
+        app.generateGiftList(document.getElementById("giftList").getAttribute("data-personid"));
+    },
+
+    deleteGift: function(giftID){
+        let people = JSON.parse(localStorage.people);
+        people.forEach(person => {
+            if (person.id == document.getElementById("giftList").getAttribute("data-personid")){
+                person.gifts.forEach(gift => {
+                    if (gift.id == giftID){
+                        person.gifts.splice(person.gifts.indexOf(gift), 1);
+                    }
+                });
+            }
+        });
+        localStorage.people = JSON.stringify(people);
+        app.generateGiftList(document.getElementById("giftList").getAttribute("data-personid"));
+    },
+
+    generatePeopleList: function(){
+        let people = JSON.parse(localStorage.people);
+        let output = "";
+        if (people.length > 0){
+            let sortedMonths = [[],[],[],[],[],[],[],[],[],[],[],[]];
+            people.forEach(person => {
+                sortedMonths[new Date(person.dateOfBirth).getMonth()].push(person);
+            });
+            let today = new Date();
+            let month = null;
+            let day = null;
+            sortedMonths.forEach(month => {
+                month.forEach(person => {
+                    if (today > new Date(today.getFullYear(), new Date(person.dateOfBirth).getMonth(), new Date(person.dateOfBirth).getDate())){
+                        output += `<li class="list-item passedDate swipeable" data-id="${person.id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.name}</p><p>${person.dateOfBirth}</p></li>`;
+                    }
+                    else{
+                        output += `<li class="list-item upcomingDate swipeable" data-id="${person.id}"><img src="img/avatar.png" alt="avatar icon" class="avatar" /><span class="action-right icon arrow_right"></span><p class="peopleListName">${person.name}</p><p>${person.dateOfBirth}</p></li>`;
+                    }
+                    document.getElementById("deleteToggle").classList.remove("displayNone");
+                });
+            });
+        }
+        else{
+            output = `<li class="list-item"></span><p>No people found!</p><p>Add a person now!</p></li>`;
+            document.getElementById("deleteToggle").classList.add("displayNone");
+        }
         document.getElementById("peopleList").innerHTML = output;
         app.addPeopleEventListeners();
     },
 
-    autoFillPeopleForm: async function(personID){
-        let response = await server.getPerson(personID);
-        document.getElementById("name").value = response.data.person_name;
-        document.getElementById("birthday").value = response.data.person_dob;
-    },
-
-    generateGiftList: async function(personID){
+    generateGiftList: function(personID){
+        let people = JSON.parse(localStorage.people);
+        let selectedPerson = null;
+        people.forEach(person => {
+            if (person.id == personID){
+                selectedPerson = person;
+            }
+        });
         let output = "";
-        try{
-            let response = await server.getGifts(personID);
-            response.data.forEach(gift => {
-                output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" /><span class="action-right icon delete" data-giftid="${gift.gift_id}"></span><p>${gift.gift_title}</p><p>${gift.gift_price}</p><p class="gift-url">${gift.gift_url}</p></li>`;
+        if (selectedPerson.gifts.length > 0){
+            selectedPerson.gifts.forEach(gift => {
+                output += `<li class="list-item"><img src="img/gift.png" alt="gift icon" class="avatar" data-link="${gift.url}"/><span class="action-right icon delete" data-giftid="${gift.id}"></span><p>${gift.name}</p><p>${gift.price}</p></li>`;
             });
-        } 
-        catch(e){
+        }
+        else{
             output = `<li class="list-item"></span><p>No gifts found!</p><p>Add a gift now!</p></li>`;
         }
         document.getElementById("giftList").innerHTML = output;
         app.addGiftEventListeners();
     },
 
-    overlay: function(context){
-        let overlay = document.querySelector('.overlay-bars');
-        // Make overlay visible
-        overlay.classList.add('active');
-        // Switch message displayed based on how the prompt function was called
-        switch (context) {
-            // Profile is accepted
-            case 'addPerson':
-                var message = document.querySelector('.t3');
-                message.classList.remove('error');
-                message.classList.add('success');
-                message.innerHTML = 'Person Added!';
-                break;
-            case 'numberInName':
-                var message = document.querySelector('.t3');
-                message.classList.remove('success');
-                message.classList.add('error');
-                message.innerHTML = 'Names may only contain letters!';
-                setTimeout(() => {
-                }, 250);
-                break;
-            // Profile is rejected
-            case 'deletePerson':
-                var message = document.querySelector('.t3');
-                message.classList.remove('success');
-                message.classList.add('error');
-                message.innerHTML = "Person Removed!";
-                break;
-            case 'editPerson':
-                var message = document.querySelector('.t3');
-                message.classList.remove('error');
-                message.classList.add('success');
-                message.innerHTML = "Person Succesfully Edited!";
-                break;
-            // Profile is deleted from the favourites page
-            case 'addGift':
-                var message = document.querySelector('.t3');
-                message.classList.remove('error');
-                message.classList.add('success');
-                message.innerHTML = "Gift Idea Added!";
-                break;
-            case 'httpMissing':
-                var message = document.querySelector('.t3');
-                message.classList.remove('success');
-                message.classList.add('error');
-                message.innerHTML = "Please add http:// to start of url!";
-                setTimeout(() => {
-                }, 250);
-                break;
-            case 'deleteGift':
-                var message = document.querySelector('.t3');
-                message.classList.remove('success');
-                message.classList.add('error');
-                message.innerHTML = "Gift Idea Removed!";
-                break;
-        }
-        setTimeout(() => {
-            overlay.classList.remove('active');
-        }, 750);
-    }
-}
+};
 
 let loadEvent = ("deviceready" in document)?"deviceready":"DOMContentLoaded";
 document.addEventListener(loadEvent, app.main);

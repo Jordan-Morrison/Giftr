@@ -7,9 +7,6 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
     <name>Giftr</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -26,11 +23,10 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <allow-intent href="*" />
-    <icon src="res/Material Icons_e7e9(0)_512.png" />
+    <icon density="mdpi" src="res/icon/android/icon_48_mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/icon_72_hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/icon_96_xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/icon_144_xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/icon_192_xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-        <param name="onload" value="true" />
-    </feature>
 </widget>

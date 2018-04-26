@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <!-- <meta http-equiv=“Content-Security-Policy” content=“default-src ‘self’ ‘unsafe-inline’ data: gap: https://ssl.gstatic.com ‘unsafe-eval’; style-src ‘self’ ‘unsafe-inline’; media-src *;script-src* ;img-src * ‘self’ * data: content:; connect-src * blob: cdvphotolibrary:;“>    <meta name="format-detection" content="telephone=no"> -->
+    <!-- <meta http-equiv=“Content-Security-Policy” content=“default-src * ‘self’ data: gap: ‘unsafe-eval’ ws: ; style-src * ‘self’ ‘unsafe-inline’; media-src *; img-src* ‘self’ data: content:;“>    <meta name="format-detection" content="telephone=no"> -->
+    <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" type="text/css" href="css/tinyshell.min.css">
@@ -25,12 +26,20 @@
             - Button to add person in nav bar 
         -->
     <div id="peopleScreen" class="page active">
+        <!-- iOS Navbar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link right rightOnly icon add addPersonButton">Add</a>
+        </nav>
         <!-- Android Header/Navbar -->
-        <header class="bar top">
+        <header class="android bar top">
             <h1 class="page-title">People</h1>
-            <a href="#" class="ios link right rightOnly icon add addPersonButton">Add</a>
         </header>
         <section class="content">
+            <li class="list-item" id="deleteToggle">
+                <span class="action-right icon delete"></span>
+                <p>            </p>
+                <p>            </p>
+            </li>
             <ul id='peopleList' class="list-view">
                 
             </ul>
@@ -56,22 +65,22 @@
                 - Way to cancel adding a person and go back to person list page
         -->
     <div id="peopleForm" class="page">
-        <header id="peopleFormHeader" class="bar top">
+        <header class="android bar top">
             <h1 id="peopleFormTitle" class="page-title">Add Person</h1>
         </header>
-        <section id="peopleFormSection" class="content">
-            <form>
+        <section class="content">
+            <form id="addPeopleForm">
                 <p class="form-row">
-                    <input type="text" id="name" required/>
                     <label for="name">Name</label>
+                    <input type="text" id="name" required/>
                 </p>
                 <p class="form-row">
                     <label for="birthday">Birthday: </label>
                     <input type="date" id="birthday" required/>
                 </p>
                 <div class="form-row input-field">
-                    <input type="submit" id="peopleFormSaveButton" class="btn-small" data-id="" value="submit" />
                     <input type="button" id="peopleFormCancelButton" class="btn-small" value="cancel" />
+                    <input type="button" id="peopleFormSaveButton" class="btn-small" value="submit" />
                 </div>
             </form>
         </section>
@@ -90,16 +99,19 @@
                 - On the gift page there will be a button for adding a new idea to the list.
                 - Way to navigate back to the person list page
         -->
-    <div id="giftScreen" class="page" data-id="">
+    <div id="giftScreen" class="page">
+        <!-- iOS Nav Bar -->
+        <nav class="ios bar-half top">
+            <a href="#" class="link left icon arrow_left giftScreenBackButton">Back</a>
+            <a href="#" class="link right icon add addGiftButton">Add</a>
+        </nav>
         <!-- Android Header/Nav Bar -->
-        <header class="bar top">
-            <span id="gift-back-button-android" class='android left-button back giftScreenBackButton'>Back</span>
-            <a href="#" class="ios link left leftOnly icon arrow_left giftScreenBackButton">Back</a>
+        <header class="android bar top">
+            <span id="gift-back-button-android" class='left-button back giftScreenBackButton'>Back</span>
             <h1 class="page-title">Gifts</h1>
-            <a href="#" class="ios link right rightOnly icon add addGiftButton">Add</a>
         </header>
         <section class="content">
-            <ul id="giftList" class="list-view">
+            <ul id="giftList" class="list-view" data-personid="">
 
             </ul>
             <!-- Android Button -->
@@ -120,46 +132,39 @@
                 - Way to cancel adding a gift and go back to gift list page
         -->
     <div id="giftForm" class="page">
-        <header class="bar top">
+        <header class="android bar top">
             <h1 class="page-title">Add Gift</h1>
         </header>
-        <section id="giftFormSection" class="content">
-            <form>
+        <section class="content">
+            <form id="addGiftForm">
                 <p class="form-row">
-                    <input type="text" id="giftIdea" required/>
                     <label for="giftIdea">Gift Idea</label>
+                    <input type="text" id="giftIdea" required/>
                 </p>
                 <p class="form-row">
-                    <input type="number" id="giftPrice" min="0" step="0.01" required/>
                     <label for="giftPrice">Price</label>
+                    <input type="number" id="giftPrice" min="0" step="0.01" required/>
                 </p>
                 <p class="form-row">
-                    <input type="text" id="giftStore" required/>
                     <label for="giftStore">Store</label>
+                    <input type="text" id="giftStore" required/>
                 </p>
                 <p class="form-row">
-                    <input type="text" id="giftUrl" required/>
                     <label for="giftUrl">Gift URL</label>
+                    <input type="text" id="giftUrl" required/>
                 </p>
                 <div class="form-row buttons">
-                    <input type="submit" id="giftFormSaveButton" class="btn-small" value="save" />
                     <input type="button" id="giftFormCancelButton" class="btn-small" value="cancel" />
+                    <input type="button" id="giftFormSaveButton" class="btn-small" value="save" />
                 </div>
             </form>
         </section>
     </div>
-    <div class="overlay-bars">
-        <section class="message">
-            <h1 class="t3"></h1>
-        </section>
-    </div>
 
-    <script type="text/javascript" src="cordova.js"></script>
+    <!-- <script type="text/javascript" src="cordova.js"></script> -->
     <script type="text/javascript" src="js/tinyshell.min.js?v=1"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/moment.js"></script>
-    <script type="text/javascript" src="js/serverConnection.js"></script>
     <script type="text/javascript" src="js/platform.js"></script>
 </body>
 
