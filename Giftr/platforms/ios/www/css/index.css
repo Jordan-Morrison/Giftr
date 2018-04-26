@@ -3,6 +3,12 @@
     display: none;
 }
 
+/* List Item CSS */
+
+.list-item .avatar {
+    top: 0.4rem;
+}
+
 .past-date{
     background-color: lightcoral;
 }
@@ -17,6 +23,10 @@
 
 .list-item:last-child{
     border-bottom: 1px solid black;
+}
+
+.list-item .action-right ~ .gift-url p{
+    min-height: 2rem;
 }
 
 /* Overlay CSS */
